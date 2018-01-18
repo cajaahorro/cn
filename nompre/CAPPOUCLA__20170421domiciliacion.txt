@@ -1,0 +1,764 @@
+0201082457570200002042V00443869        00000000000040422ROJAS                RAFAEL ANTENOR                                   00CAPPOUCL              *
+0201082457550200002107V00673822        00000000000094925UZCATEGUI B.         MARGARITA                                        00CAPPOUCL              *
+0201082457500200002158V00770342        00000000000053456MARTINEZ             SIXTO A.                                         00CAPPOUCL              *
+0201082457510200002336V01108218        00000000000104168GOMEZ                HERIBERTO DE JESUS                               00CAPPOUCL              *
+0201082457520200002344V01112379        00000000000115492SANCHEZ              JUAN DE JESUS                                    00CAPPOUCL              *
+0201082457570200002557V01239070        00000000000016083GUEVARA              JOSE BAUDILIO                                    00CAPPOUCL              *
+0201082457520200002778V01257983        00000000000107220ARRIETA              JOSE MANUEL                                      00CAPPOUCL              *
+0201082457590200002816V01258658        00000000000024440BETANCOURT           JUAN BAUTISTA                                    00CAPPOUCL              *
+0201082457560200002891V01263302        00000000000059936SEGURA B.            FRANCISCA                                        00CAPPOUCL              *
+0201082457560200002972V01265436        00000000000032166CHIRINOS S.          DOMINGO A.                                       00CAPPOUCL              *
+0201082457520200003154V01277938        00000000000057899GARCIA               JOSE EDUARDO                                     00CAPPOUCL              *
+0201082457530200003162V01278407        00000000000022945NIEVES DE B.         CARMEN G.                                        00CAPPOUCL              *
+0201082457560200003197V01318484        00000000000028949CAMACHO              IDELFONSO DE J.                                  00CAPPOUCL              *
+0201082457580200003375V01631390        00000000000080415VILLARROEL           JOSE DEL C.                                      00CAPPOUCL              *
+0201082457540200003413V01763812        00000000000107242SILVA                PATRICIO                                         00CAPPOUCL              *
+0201082457580200003456V01765295        00000000000202268COLMENAREZ           ROMELIO A.                                       00CAPPOUCL              *
+0201082457500200003472V01769938        00000000000064332LOPEZ                JOSE PASTOR                                      00CAPPOUCL              *
+0201082401010200072665V02130876        00000000000074732SILVA                BERTHA                                           00CAPPOUCL              *
+0201082457550200003774V02186056        00000000000106810ALVARADO             PEDRO GERARDO                                    00CAPPOUCL              *
+0201082457570200003790V02189077        00000000000037527JIMENEZ              OBDULIA                                          00CAPPOUCL              *
+0201082457590200003898V02198274        00000000000044925PINTO CHIRINOS       ALBERTO JOSE                                     00CAPPOUCL              *
+0201082457550200003936V02198799        00000000000032166TOBOSO               PEDRO RAFAEL                                     00CAPPOUCL              *
+0201082457510200003995V02272067        00000000000053824GODOY DE C.          MARIA DEL R.                                     00CAPPOUCL              *
+0201082457530200004053V02380275        00000000000056397TORRES S.            CLARENCIO                                        00CAPPOUCL              *
+0201082457570200004096V02384661        00000000000113260URRIOLA DE S.        LOURDES L.                                       00CAPPOUCL              *
+0201082457550200004231V02533320        00000000000097695HERNANDEZ S.         ISMAEL H.                                        00CAPPOUCL              *
+0201082457510200004290V02535843        00000000000143610VARGAS               JOSE DE LAS M.                                   00CAPPOUCL              *
+0201082457550200037326V02541142        00000000000043531TORRES               GUALBERTO                                        00CAPPOUCL              *
+0201082457510200004460V02541439        00000000000010722SALCEDO A.           BENILDA F.                                       00CAPPOUCL              *
+0201082457580200004509V02541709        00000000000149136QUINTERO A.          CARLOS E                                         00CAPPOUCL              *
+0201082457560200004592V02543654        00000000000020881GIMENEZ A.           EMILIANO                                         00CAPPOUCL              *
+0201082457500200004606V02543813        00000000000034096MARTINEZ        JOSE EUCLIDES                                         00CAPPOUCL              *
+0201082457510200004614V02543932        00000000000176000RIVERO S.            MARTHA PASTORA                                   00CAPPOUCL              *
+0201082457510200004703V02592064        00000000000055754DURAN                BERNABE                                          00CAPPOUCL              *
+0201082457520200004711V02592966        00000000000049556ALVAREZ R.           GERARDO                                          00CAPPOUCL              *
+0201082457530200004800V02596405        00000000000073588PEREZ                PEDRO PABLO                                      00CAPPOUCL              *
+0201082457580200004851V02598733        00000000000042679RAMOS A.             ROBERTO ANTONIO                                  00CAPPOUCL              *
+0201082457560200004916V02603046        00000000000094257MARTINEZ        REYES ANTONIO                                         00CAPPOUCL              *
+0201082457590200004940V02605164        00000000000045890MATHEUS P.           JOSE TOMAS                                       00CAPPOUCL              *
+0201082457520200004983V02607322        00000000000100698YEPEZ                JESUS MARIA                                      00CAPPOUCL              *
+0201082457530200004991V02608233        00000000000059078FLORES               RAFAEL SIMON                                     00CAPPOUCL              *
+0201082457540200056029V02608304        00000000000076805MARQUEZ P.           CARMEN TERESA                                    00CAPPOUCL              *
+0201082457530200005025V02608554        00000000000066153FLORES E.            MANUEL RAMON                                     00CAPPOUCL              *
+0201082457540200005114V02684589        00000000000026805BERRIOS              JUAN BAUTISTA                                    00CAPPOUCL              *
+0201082457550200005122V02741170        00000000000051925RODRIGUEZ            OSWALDO ANTONIO                                  00CAPPOUCL              *
+0201082401080200087077V02910376        00000000000079392ANGULO               ANA TERESA                                       00CAPPOUCL              *
+0201082457530200005378V02913809        00000000000012866MENDOZA DE M.        JOSEFA A.                                        00CAPPOUCL              *
+0201082457590200005408V02915293        00000000000102774AZUAJE               ANA RAFAELA                                      00CAPPOUCL              *
+0201082457520200005440V02915780        00000000000092888SUAREZ V.            MIGUEL ANGEL                                     00CAPPOUCL              *
+0201082457510200005505V02916362        00000000000025893ARENAS               OCTAVIO                                          00CAPPOUCL              *
+0201082457510200005513V02916467        00000000000049964ALVARADO DE C.       GUMERCINDA                                       00CAPPOUCL              *
+0201082457590200005750V03080057        00000000000042006ALVAREZ P.           GUSTAVO A                                        00CAPPOUCL              *
+0201082457520200005793V03081351        00000000000066476SEGURA               SILVIO RAFAEL                                    00CAPPOUCL              *
+0201082457510200005858V03082505        00000000000117315RAMIREZ C.           VICTOR JOSE                                      00CAPPOUCL              *
+0201082457510200005866V03083006        00000000000076053RODRIGUEZ            JESUS ESTEBAN                                    00CAPPOUCL              *
+0201082457520200005874V03083065        00000000000119540MEZA P.              OLGA ANTONIA                                     00CAPPOUCL              *
+0201082413330200017228V03083457        00000000000027555TORRES               PABLO JOSE                                       00CAPPOUCL              *
+0201082457540200005890V03083843        00000000000055218GOMEZ RAMOS          MARIA M.                                         00CAPPOUCL              *
+0201082457500200005920V03084978        00000000000126168CASTILLO             JOSE DE LOS S.                                   00CAPPOUCL              *
+0201082457510200005947V03085009        00000000000077627MONSALVE R.          FREDDY A                                         00CAPPOUCL              *
+0201082457590200006137V03234299        00000000000032472MUJICA C.            CELESTINO                                        00CAPPOUCL              *
+0201082457510200006153V03245420        00000000000072909PERDOMO G.           SANTELIX DAVID                                   00CAPPOUCL              *
+0201082457520200006250V03314884        00000000000024660OSTA DE HURTADO      MARIA M.                                         00CAPPOUCL              *
+0201082457530200006269V03315121        00000000000059721ESPINOZA CRESPO      CARMEN V.                                        00CAPPOUCL              *
+0201082457550200006366V03317339        00000000000090290MONTERO              AGDIO FRANCISCO                                  00CAPPOUCL              *
+0201082447860200073697V03318694        00000000000073124VARGAS C.            ALIRIO MACARIO                                   00CAPPOUCL              *
+0201082457560200006455V03318719        00000000000012692ECHEGARAY            MARIO SILVERIO                                   00CAPPOUCL              *
+0201082457500200006579V03322128        00000000000040873PEÑA S.              EDGAR JOSE                                       00CAPPOUCL              *
+0201082433810200013647V03324110        00000000000112461MAVARE               VICTOR MANUEL                                    00CAPPOUCL              *
+0201082457540200006943V03528540        00000000000030944GARCIA A.            VICENTE PAUL                                     00CAPPOUCL              *
+0201082457570200007001V03533360        00000000000058220PIÑA ROMERO          JOSE F.                                          00CAPPOUCL              *
+0201082457530200007079V03535838        00000000000049428OROPEZA              OMALDO RAFAEL                                    00CAPPOUCL              *
+0201082457530200007230V03538837        00000000000097190GOMEZ TIMAURE        JUAN EMILIO                                      00CAPPOUCL              *
+0201082457560200007265V03539352        00000000000024660TONA DE MENDOZA      LIGIA                                            00CAPPOUCL              *
+0201082457590200007451V03593839        00000000000020372GONZALEZ SIMANCAS    ELIO                                             00CAPPOUCL              *
+0201082457520200007575V03710064        00000000000054468RIVERO               FREDDY ANTONIO                                   00CAPPOUCL              *
+0201082457520200007656V03759377        00000000000178214COLMENAREZ EVIES     LUIS A.                                          00CAPPOUCL              *
+0201082457560200007699V03784066        00000000000041762GOMEZ Z.             ARACELIS DEL C.                                  00CAPPOUCL              *
+0201082457500200007702V03784441        00000000000124029ANGULO A.            JOSE CRISTOBAL                                   00CAPPOUCL              *
+0201082457510200007710V03785251        00000000000016142GIL R.               JUANA ANTONIA                                    00CAPPOUCL              *
+0201082457510200007729V03792247        00000000000088349CARREÑO              DAMASIO                                          00CAPPOUCL              *
+0201082457540200007753V03830110        00000000000008578LOPEZ R.             FELIX JOSE                                       00CAPPOUCL              *
+0201082457530200007826V03855577        00000000000048249MATHEUS DE MENDOZA   MARIA                                            00CAPPOUCL              *
+0201082457590200007885V03857004        00000000000022945TORREALBA P.         UVENCIA J.                                       00CAPPOUCL              *
+0201082457500200007893V03857220        00000000000097089MARIN S.             JULIO JOSE                                       00CAPPOUCL              *
+0201082457560200007931V03857667        00000000000141322GIL                  PABLO                                            00CAPPOUCL              *
+0201082457500200007974V03858323        00000000000105627PUERTA DE ESCALONA   YUDITH                                           00CAPPOUCL              *
+0201082457510200008016V03858856        00000000000090267PEREZ H.             LIVIO GERMAN                                     00CAPPOUCL              *
+0201082457580200008253V03875055        00000000000025518LARA LINAREZ         BIANEIS C                                        00CAPPOUCL              *
+0201082457510200008296V03877925        00000000000117941PACHECO              FELICIANO                                        00CAPPOUCL              *
+0201082457560200008318V03878006        00000000000123124BULLONES  V.         ABEL PASTOR                                      00CAPPOUCL              *
+0201082457590200008423V03963688        00000000000142674GALLARDO             SILVERIO ANTONIO                                 00CAPPOUCL              *
+0201082457500200008431V03964093        00000000000024301RODRIGUEZ A.         FELIPE                                           00CAPPOUCL              *
+0201082457590200008504V03969513        00000000000014582MARTINEZ E.          ADOLFO A                                         00CAPPOUCL              *
+0201082457510200008601V04064149        00000000000178743GARCIA G.            CRISTOBAL                                        00CAPPOUCL              *
+0201082457580200008687V04065177        00000000000021444CALLES               PETRA MARIA                                      00CAPPOUCL              *
+0201082457540200008725V04065584        00000000000018337VIRGUEZ G.           PAUSIDES                                         00CAPPOUCL              *
+0201082457560200008741V04065648        00000000000102001RODRIGUEZ C.         MELQUIADES S                                     00CAPPOUCL              *
+0201082457510200008792V04066245        00000000000049685CASTILLO             JOSE RAMON                                       00CAPPOUCL              *
+0201082457560200008903V04067795        00000000000194217ALVAREZ HERNANDEZ    PASTOR                                           00CAPPOUCL              *
+0201082457580200009063V04071241        00000000000086434SANCHEZ              MARLENE PASTORA                                  00CAPPOUCL              *
+0201082457590200009152V04107436        00000000000128156QUERALEZ PEÑA        RAFAEL A.                                        00CAPPOUCL              *
+0201082457510200009187V04191539        00000000000030562CARMONA              JUAN DE JESUS                                    00CAPPOUCL              *
+0201082457580200009225V04194671        00000000000084477TORRES E.            HERNAN PASTOR                                    00CAPPOUCL              *
+0201082457530200009284V04238916        00000000000077935LUCENA Q.            CARMEN TERESA                                    00CAPPOUCL              *
+0201082457580200009497V04373204        00000000000177833CAMACARO             ELIS LEON                                        00CAPPOUCL              *
+0201082401080200123804V04373479        00000000000101992SIRA P.              REINA JOSEFINA                                   00CAPPOUCL              *
+0201082457510200009691V04375498        00000000000092888COLMENAREZ           JOSE RAMON                                       00CAPPOUCL              *
+0201082457500200009756V04376813        00000000000175366RODRIGUEZ            JUAN RAMON                                       00CAPPOUCL              *
+0201082457510200009764V04377201        00000000000038063CHIRINOS M.          BARTOLOME                                        00CAPPOUCL              *
+0201082457500200009837V04378140        00000000000047435PEÑA                 GUDITH COROMOTO                                  00CAPPOUCL              *
+0201082457510200009853V04378283        00000000000101702ALVAREZ              FIDEL ORIOL                                      00CAPPOUCL              *
+0201082457510200009934V04378759        00000000000207589GONZALEZ F.          WILLIAM N.                                       00CAPPOUCL              *
+0201082457510200010002V04381341        00000000000032166BARRIOS              MARIA TERESA                                     00CAPPOUCL              *
+0201082457520200010010V04381614        00000000000071944ARANGUREN            HAIDEE JOSEFINA                                  00CAPPOUCL              *
+0201082457550200010045V04382400        00000000000073382PUERTA DE G.         CARMEN P.                                        00CAPPOUCL              *
+0201082457590200010088V04383023        00000000000065075VELASQUEZ            EMILIO A.                                        00CAPPOUCL              *
+0201082457560200010215V04385047        00000000000093664ALVARADO D.          RAMIRO ANTONIO                                   00CAPPOUCL              *
+0201082457530200010290V04386936        00000000000306469MENDOZA G.           JOSE MARIO                                       00CAPPOUCL              *
+0201082457530200010371V04409485        00000000000187098ORELLANA Y.          PEDRO PABLO                                      00CAPPOUCL              *
+0201082457550200010398V04409788        00000000000025991BETANCOURT DE L.     MARIA H.                                         00CAPPOUCL              *
+0201082457550200010479V04414909        00000000000030450RODRIGUEZ G.         APOLINAR A.                                      00CAPPOUCL              *
+0201082457560200010487V04415675        00000000000079342ALVARADO PEREZ   LISBE F.                                             00CAPPOUCL              *
+0201082457530200010614V04609506        00000000000050000PEREIRA              PEDRO PABLO                                      00CAPPOUCL              *
+0201082457500200010681V04720170        00000000000045568VELIZ C.             LUCILA PASTORA                                   00CAPPOUCL              *
+0201082457570200010738V04721016        00000000000072367GIMENEZ V.           BIADYS YELITZA                                   00CAPPOUCL              *
+0201082457590200010835V04722814        00000000000037205RODRIGUEZ            JESUS DECIDERIO                                  00CAPPOUCL              *
+0201082457540200010894V04723168        00000000000097702CRESPO               PEDRO ALEXIS                                     00CAPPOUCL              *
+0201082457590200010916V04723403        00000000000050393ESCALONA             FELIX JOSE                                       00CAPPOUCL              *
+0201082457540200011009V04725919        00000000000151109PEREZ G.             VIRGILIO ANTONIO                                 00CAPPOUCL              *
+0201082457570200011033V04727740        00000000000072837DURAN                ADRIAN ANTONIO                                   00CAPPOUCL              *
+0201082457510200034793V04728331        00000000000104870OVIEDO               JOSE CANDELARIO                                  00CAPPOUCL              *
+0201082457510200011165V04729448        00000000000035902CARRASCO DE R.       BLANCA YSA                                       00CAPPOUCL              *
+0201082457580200011203V04730168        00000000000100375PALENCIA PEÑA        CARLOS A.                                        00CAPPOUCL              *
+0201082457550200011289V04731494        00000000000160641JIMENEZ              EDGAR SOLANO                                     00CAPPOUCL              *
+0201082457510200011327V04732090        00000000000063903ROJAS                ELENA PASTORA                                    00CAPPOUCL              *
+0201082457530200011343V04732618        00000000000161264GARCES               NELLY MARIA                                      00CAPPOUCL              *
+0201082457530200011424V04734527        00000000000057292MARQUEZ T.           ELENA LUC                                        00CAPPOUCL              *
+0201082457560200011459V04735505        00000000000117482PEÑUELA DE M.        MARIA M.                                         00CAPPOUCL              *
+0201082457560200011610V04738424        00000000000048249CHIRINOS DE M.       ANA LEONZA                                       00CAPPOUCL              *
+0201082457520200011688V04739796        00000000000151934HUGGINS S.           ALVES DOMINGO                                    00CAPPOUCL              *
+0201082457530200011696V04754833        00000000000132276PEREZ B.             ABELARDO RAMON                                   00CAPPOUCL              *
+0201082457580200011718V04803744        00000000000121115GONZALEZ C.          RAMON A.                                         00CAPPOUCL              *
+0201082457590200011726V04805842        00000000000015075TORRES               RAFAEL SIMON                                     00CAPPOUCL              *
+0201082457500200011734V04827213        00000000000247956MORALES M.           TEOBALDO                                         00CAPPOUCL              *
+0201082457590200011807V05017295        00000000000021015MONSALVE             ALEXIS DE J                                      00CAPPOUCL              *
+0201082457510200011831V05022967        00000000000043960ARRIECHE             SILVERIO ANTONIO                                 00CAPPOUCL              *
+0201082457530200011939V05237805        00000000000027877PEREIRA LEDEZMA      FRANCISCO                                        00CAPPOUCL              *
+0201082457540200011947V05238236        00000000000075054PIÑA                 RAMON ALFREDO                                    00CAPPOUCL              *
+0201082457570200011971V05239261        00000000000090064CASTILLO M.          RAMON ANTONIO                                    00CAPPOUCL              *
+0201082457570200012196V05244302        00000000000038599MORA M.              MELIDA DEL CARMEN                                00CAPPOUCL              *
+0201082401040200145255V05244483        00000000000037130BRITO PARRA          RUBEN ANTONIO                                    00CAPPOUCL              *
+0201082457520200012226V05244484        00000000000016809BRITO P.             GERMAN ALBERTO                                   00CAPPOUCL              *
+0201082457540200012242V05244765        00000000000147656VASQUEZ DE H.        CARMEN A.                                        00CAPPOUCL              *
+0201082457570200012277V05245261        00000000000095462RODRIGUEZ S.         ANDRES A.                                        00CAPPOUCL              *
+0201082457580200012447V05248926        00000000000055181PARRA M.             YSABEL COROMOTO                                  00CAPPOUCL              *
+0201082457590200012455V05248954        00000000000168742MARTINEZ C.          JOSE DANIEL                                      00CAPPOUCL              *
+0201082457500200012463V05249259        00000000000056143VILLANUEVA           RAFAEL PASTOR                                    00CAPPOUCL              *
+0201082457510200012560V05250965        00000000000023588SIRA                 JUAN ALBERTO                                     00CAPPOUCL              *
+0201082457530200012587V05251153        00000000000033131FLORES               MERCEDES DEL C.                                  00CAPPOUCL              *
+0201082457540200012595V05251214        00000000000028205BERNAL MORAN         OMAR RAMON                                       00CAPPOUCL              *
+0201082457500200012625V05252606        00000000000160217MENDEZ               ESTEBAN JOSE                                     00CAPPOUCL              *
+0201082457510200012714V05254613        00000000000198410OVIEDO               MARIA INES                                       00CAPPOUCL              *
+0201082457520200038292V05255567        00000000000040454GONZALEZ M.          JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457510200012722V05255641        00000000000097187SOTO C.              EDUARDO SAMUEL                                   00CAPPOUCL              *
+0201082457550200012765V05257175        00000000000037147SEIJAS B.            IGNACIO H.                                       00CAPPOUCL              *
+0201082457560200012773V05257421        00000000000106826ESCALONA             HERNAN ENRIQUE                                   00CAPPOUCL              *
+0201082457570200012781V05257727        00000000000115490GARCIA G.            GUSTAVO ANTONIO                                  00CAPPOUCL              *
+0201082457510200012803V05257774        00000000000042988MENDOZA              JORGE LUIS                                       00CAPPOUCL              *
+0201082457530200012900V05259785        00000000000085825PEÑA                 FELIX ALEXIS                                     00CAPPOUCL              *
+0201082457560200012935V05261116        00000000000004981ARRIETA              MARIA EUGENIA                                    00CAPPOUCL              *
+0201082457570200012943V05261139        00000000000116598TORRES V.            JUVENAL ANTONIO                                  00CAPPOUCL              *
+0201082457580200012951V05261250        00000000000046748ESCALONA             ELIO RAMON                                       00CAPPOUCL              *
+0201082457500200013001V05261643        00000000000048249PARRA DE H.          GREGORIA J.                                      00CAPPOUCL              *
+0201082457580200013176V05344986        00000000000069686ZAMBRANO Z.          EDUARDO A.                                       00CAPPOUCL              *
+0201082457570200013249V05435450        00000000000026665GIL                  ABRAHAM ANTONIO                                  00CAPPOUCL              *
+0201082457510200013281V05436619        00000000000162511YUSTIZ L.            JOSE RAFAEL                                      00CAPPOUCL              *
+0201082457550200013303V05436795        00000000000003736LINAREZ ORTIZ        MARIA T.                                         00CAPPOUCL              *
+0201082457590200013346V05438690        00000000000003736COLMENAREZ DE B.     SANTINA                                          00CAPPOUCL              *
+0201082457500200013354V05439480        00000000000148432PINEDA R.            JOSE ANTONIO                                     00CAPPOUCL              *
+0201082457510200013362V05439865        00000000000133631RODRIGUEZ            NAIL JOSE                                        00CAPPOUCL              *
+0201082457530200013397V05458236        00000000000057292GUEDEZ S.            JUANA F.                                         00CAPPOUCL              *
+0201082447840200073832V05461455        00000000000158780VEGAS B.             ANGEL GABRIEL                                    00CAPPOUCL              *
+0201082457570200013591V05765952        00000000000112273LUCENA VALERA        JOSE RAMON                                       00CAPPOUCL              *
+0201082457570200013753V05921128        00000000000093531PASTRAN C.           FELIX ALBERTO                                    00CAPPOUCL              *
+0201082457580200013761V05923624        00000000000068969VEGAS MALDONADO      ANDRES M.                                        00CAPPOUCL              *
+0201082457550200054093V05925143        00000000000087130MUJICA A.            ARGENIS D.                                       00CAPPOUCL              *
+0201082457570200013834V05935536        00000000000047371CARUCI TORRES        ADOLFO R.                                        00CAPPOUCL              *
+0201082457520200013893V05938995        00000000000037130GONZALEZ             WILFREDO DANIEL                                  00CAPPOUCL              *
+0201082457520200036834V06044716        00000000000070214MENDEZ ZERPA         ORLANDO R.                                       00CAPPOUCL              *
+0201082457540200013990V06125595        00000000000004981CANELON              EDITA DEL CARMEN                                 00CAPPOUCL              *
+0201082457520200014008V06127630        00000000000147765COLMENAREZ V.        WILFREDO A.                                      00CAPPOUCL              *
+0201082457580200014067V06238388        00000000000034525ROMERO L.            GUSTAVO A.                                       00CAPPOUCL              *
+0201082457510200014172V06537141        00000000000037634MARTIN  COLINA                                                        00CAPPOUCL              *
+0201082457570200014210V06573443        00000000000064332GOYO                 JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457520200035005V06573855        00000000000038978PEREZ AVILA          LUIS ALBERTO                                     00CAPPOUCL              *
+0201082457560200052805V06573893        00000000000023588ESCALONA G.          MIRYAN DEL C.                                    00CAPPOUCL              *
+0201082457580200014229V06575243        00000000000050000PEREZ L.             FREDIS ENRIQUEZ                                  00CAPPOUCL              *
+0201082457590200014237V06575301        00000000000034427ARRIECHE R.          EFRAIN J.                                        00CAPPOUCL              *
+0201082457500200034513V06634354        00000000000110546MONTILLA G.          RAMON G.                                         00CAPPOUCL              *
+0201082457560200038144V06689708        00000000000025991ESCALONA D.          VITALIANO J.                                     00CAPPOUCL              *
+0201082457500200014326V06690236        00000000000050000MONTERO              YRDEFONSO A.                                     00CAPPOUCL              *
+0201082447820200073816V06701343        00000000000070213SIVIRA                MIGUEL ANGEL                                    00CAPPOUCL              *
+0201082447820200073492V06701344        00000000000003943ESCALONA             JUAN ALBERTO                                     00CAPPOUCL              *
+0201082457510200014415V06841910        00000000000008283LOPEZ T.             HECTOR EDILVER                                   00CAPPOUCL              *
+0201082401010200166147V07076647        00000000000041494ALMAO U.             LEOPOLDO G.                                      00CAPPOUCL              *
+0201080219970100066670V07211860        00000000000033560COBO VERA            JOSE RAMON                                       00CAPPOUCL              *
+0201082457580200014571V07240399        00000000000034501TORREALBA P.         CARMEN CESAR                                     00CAPPOUCL              *
+0201082457530200014601V07300376        00000000000056076ALVARADO CARMEN P.                                                    00CAPPOUCL              *
+0201082457570200014644V07301470        00000000000046607LEON C.              LUIS RAMON                                       00CAPPOUCL              *
+0201082457510200014695V07305494        00000000000017155GONZALEZ A.          ORLANDO JOSE                                     00CAPPOUCL              *
+0201082457510200014849V07309317        00000000000039113PADILLA              ELSA MILAGRO                                     00CAPPOUCL              *
+0201082457510200014857V07309375        00000000000022302GUERRA               JOSE ALEXANDER                                   00CAPPOUCL              *
+0201082457590200014903V07310425        00000000000106359COLMENAREZ P.        MIGUEL JOSE                                      00CAPPOUCL              *
+0201082457510200014938V07310959        00000000000021980SEGOBIA S.           CARMEN RAMONA                                    00CAPPOUCL              *
+0201082457520200014946V07311233        00000000000131154ALVARADO             ALI JOSE                                         00CAPPOUCL              *
+0201082457530200014954V07311255        00000000000092479TUA DE G.            DILCIA P.                                        00CAPPOUCL              *
+0201082457560200014989V07312149        00000000000064117VARGAS DE PIÑA       CARMEN D.                                        00CAPPOUCL              *
+0201082457580200015039V07313189        00000000000017906LOPEZ                CARMEN RAQUEL                                    00CAPPOUCL              *
+0201082457560200097582V07314050        00000000000041762FIGUEROA             DILCIA M.                                        00CAPPOUCL              *
+0201082457590200015128V07314987        00000000000094215VIRGUEZ DUDAMEL      LUIS ENRIQUE                                     00CAPPOUCL              *
+0201082457510200015152V07315058        00000000000111706PEREZ                LUIS EDECIO                                      00CAPPOUCL              *
+0201082457560200015365V07316059        00000000000097371COLMENAREZ C.        CARLOS E.                                        00CAPPOUCL              *
+0201082457500200015217V07316139        00000000000102471RIVERA               ALBERTO PASTOR                                   00CAPPOUCL              *
+0201082457510200015233V07316607        00000000000082363CHAVEZ DE C.         MARIA T                                          00CAPPOUCL              *
+0201082457510200015314V07318041        00000000000076564LINAREZ              ORLANDO RAMON                                    00CAPPOUCL              *
+0201082457570200015373V07319649        00000000000043531GUEVARA G.           CARLOS E.                                        00CAPPOUCL              *
+0201082457580200015462V07321787        00000000000037824ANZOLA P.            ALEXIS ALB                                       00CAPPOUCL              *
+0201082457510200015497V07322780        00000000000103074SUAREZ               NAURO RAFAEL                                     00CAPPOUCL              *
+0201082457510200015578V07324725        00000000000120750URRIOLA G.           FRANCISCO JOSE                                   00CAPPOUCL              *
+0201082457570200015616V07325664        00000000000045833NELO RODRIGUEZ       DAISY                                            00CAPPOUCL              *
+0201082457590200015632V07325721        00000000000090743ALVARADO             ANTONIO JOSE                                     00CAPPOUCL              *
+0201082457500200015640V07325722        00000000000033238ALVARADO             OTTO DE LA PAZ                                   00CAPPOUCL              *
+0201082457540200015691V07328421        00000000000063935ESCALONA             MIRIAN COROMOTO                                  00CAPPOUCL              *
+0201082457550200015780V07331943        00000000000150965SUAREZ F.            JOSE MIGUEL                                      00CAPPOUCL              *
+0201082457530200015845V07332734        00000000000049321PEREZ                ROSALINA ANTONA                                  00CAPPOUCL              *
+0201082457540200015853V07333145        00000000000036669SANGRONIS C.         YONNY E.                                         00CAPPOUCL              *
+0201082457570200015888V07333526        00000000000170916ABARCA DE G.         TERESA G                                         00CAPPOUCL              *
+0201082457510200034882V07335642        00000000000138000MARTINEZ M.          EDDIE A.                                         00CAPPOUCL              *
+0201082457570200015969V07337422        00000000000129071DURAN                AURA ROSA                                        00CAPPOUCL              *
+0201082457580200016000V07338055        00000000000114574LISCANO              JAIME RAFAEL                                     00CAPPOUCL              *
+0201082457510200016116V07340200        00000000000037205RUIZ R.              SILVIA ROSA                                      00CAPPOUCL              *
+0201082457520200016132V07340742        00000000000120750VALERA               ALIRIO PASTOR                                    00CAPPOUCL              *
+0201082457570200016183V07342107        00000000000050044MEDINA               FREDDY ANIBAL                                    00CAPPOUCL              *
+0201082457570200016264V07344290        00000000000210116BELLO LAYA           JULIO CESAR                                      00CAPPOUCL              *
+0201082457580200016272V07344465        00000000000183574VALERA               ABRAHAM ANTONIO                                  00CAPPOUCL              *
+0201082457530200016302V07347856        00000000000071837UZCATEGUI            EMILIA COROMOTO                                  00CAPPOUCL              *
+0201082457540200016310V07348137        00000000000070409CASTILLO             MARINA PASTORA                                   00CAPPOUCL              *
+0201082457510100060630V07349428        00000000000076327ESCALONA             JESUS RAMON                                      00CAPPOUCL              *
+0201082457510200016477V07350162        00000000000067967COLMENAREZ           LUIS ENRIQUE                                     00CAPPOUCL              *
+0201082457520200035439V07350273        00000000000088998ARANGUREN D          JESUS M                                          00CAPPOUCL              *
+0201082457590200016604V07352317        00000000000046522ARANGUREN D.            JOSE FRANCISCO                                00CAPPOUCL              *
+0201082457530200016655V07353377        00000000000107832CRUCES               AMADOR ANTONIO                                   00CAPPOUCL              *
+0201082457550200016671V07354064        00000000000078885SANCHEZ              FRANCIA PASTORA                                  00CAPPOUCL              *
+0201082457520200016728V07354848        00000000000078949VARGAS DE V.         LUCILA                                           00CAPPOUCL              *
+0201082457560200016760V07355928        00000000000116935NUÑEZ                ELIO RODRIGO                                     00CAPPOUCL              *
+0201082457520200016809V07359478        00000000000062729MENDEZ SALAS         DANIEL                                           00CAPPOUCL              *
+0201082457550200016833V07360346        00000000000075991SANCHEZ H.           HERNAN JOSE                                      00CAPPOUCL              *
+0201082457520200037997V07360517        00000000000019789GUTIERREZ            OSCAR DE JESUS                                   00CAPPOUCL              *
+0201082457580200017082V07365166        00000000000073299DIAZ A.              RAMON T.                                         00CAPPOUCL              *
+0201082457520200017104V07365545        00000000000028949LEAL PERAZA          ALBERTO                                          00CAPPOUCL              *
+0201082457590200017171V07367276        00000000000022409FREITEZ Y.           LINA CRUZ                                        00CAPPOUCL              *
+0201082457510200038004V07368710        00000000000035168RIVERO               JOEL ANTONIO                                     00CAPPOUCL              *
+0201082457570200017236V07369018        00000000000004981OCHOA C.             MIGUEL ANGEL                                     00CAPPOUCL              *
+0201082457510200039256V07371154        00000000000015075MEDINA R.            MANUEL ANTONIO                                   00CAPPOUCL              *
+0201082457510200017279V07372156        00000000000050115CARREÑO              MARIA DEL ROSARIO                                00CAPPOUCL              *
+0201082457580200035145V07372973        00000000000183567MENDOZA P.           MARIA T.                                         00CAPPOUCL              *
+0201082457580200017325V07373089        00000000000062434SALAS A.             FELIX GERARDO                                    00CAPPOUCL              *
+0201082457560200033347V07373215        00000000000072098ARRIETA P.           JOSE MANUEL                                      00CAPPOUCL              *
+0201082401090200192547V07374243        00000000000022087CAMACARO DE G.       RAFAELA R.                                       00CAPPOUCL              *
+0201082457520200017376V07374616        00000000000076063AMARO                ANA MARIA                                        00CAPPOUCL              *
+0201082457520200017538V07377030        00000000000075089BARRIOS R.           NILDA MILAGRO                                    00CAPPOUCL              *
+0201082457550200017562V07377579        00000000000109302CONDE                RIGOBERTO                                        00CAPPOUCL              *
+0201082457540200017716V07381553        00000000000089203PEREZ S.             ABIGAIL JOSE                                     00CAPPOUCL              *
+0201082457560200017732V07382148        00000000000115000PERNALETE P.         JOSE ANTONIO                                     00CAPPOUCL              *
+0201082457580200017759V07382532        00000000000021444FALCON               ANA JOSEFINA                                     00CAPPOUCL              *
+0201082457590200038098V07384964        00000000000065075OROZCO         VICTOR J.                                              00CAPPOUCL              *
+0201082457510200017791V07387544        00000000000106635PEROZO P.            GREGORIO ANTONIO                                 00CAPPOUCL              *
+0201082457590200017848V07388080        00000000000086674ORELLANA D.          FREDDY R                                         00CAPPOUCL              *
+0201082457500200017856V07388125        00000000000076054ALVAREZ B.           JAIME F.                                         00CAPPOUCL              *
+0201082457510200017864V07388199        00000000000063400CHAVEZ               DAMARIS                                          00CAPPOUCL              *
+0201082457520100053006V07389581        00000000000037130RODRIGUEZ C.         EDGAR S                                          00CAPPOUCL              *
+0201082457530200017899V07391472        00000000000044547GUANIPA M.           MIGUEL J.                                        00CAPPOUCL              *
+0201082457590200017929V07392153        00000000000139527VALLES               ORLANDO PASTOR                                   00CAPPOUCL              *
+0201082457570200057610V07393061        00000000000077797SANCHEZ              ENNY DAVID                                       00CAPPOUCL              *
+0201082457520200017961V07393144        00000000000145641MEDINA M.            HERMINIA DE JESUS                                00CAPPOUCL              *
+0201082457540200018011V07395742        00000000000219818PARRA C.             GLADYS J.                                        00CAPPOUCL              *
+0201082457560200018038V07396051        00000000000004981ADAN H.              FREDDY ALBERTO                                   00CAPPOUCL              *
+0201082457510200018097V07398038        00000000000038599PEREZ                FELIX RAMON                                      00CAPPOUCL              *
+0201082445140200050785V07401094        00000000000058329MENDOZA              HENRY ANTONIO                                    00CAPPOUCL              *
+0201082457540200035293V07401853        00000000000023653LOPEZ A.             ANA Y.                                           00CAPPOUCL              *
+0201082457500200018232V07403123        00000000000063045HERNANDEZ V.         MIREYA DEL C                                     00CAPPOUCL              *
+0201082457510200018240V07403188        00000000000032769ORELLANA B.          AURORA                                           00CAPPOUCL              *
+0201082457530200018275V07403563        00000000000068621LEON C.              ALIRIO RAFAEL                                    00CAPPOUCL              *
+0201082457510200018402V07406353        00000000000133866MARTINEZ S.          TIBERIO CESAR                                    00CAPPOUCL              *
+0201082447810200030750V07408531        00000000000042888ROJAS S.             REINALDO A.                                      00CAPPOUCL              *
+0201082457540200018526V07409730        00000000000023588RIVERO S.            JOSE LUIS                                        00CAPPOUCL              *
+0201082457560200018542V07410177        00000000000104338APOSTOL R.           LUIS A.                                          00CAPPOUCL              *
+0201082457540200035021V07412738        00000000000078480BRAVO NIEVES  BEATRIZ V.                                              00CAPPOUCL              *
+0201082457590200018739V07415285        00000000000191968HERNANDEZ            CARLOS PASTOR                                    00CAPPOUCL              *
+0201082457500200038268V07415448        00000000000121361ACOSTA P.            LUIS A.                                          00CAPPOUCL              *
+0201082457580200018801V07416870        00000000000027877VISCAYA              JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457500200018828V07417289        00000000000078646MUJICA DE G.         YORMAN A.                                        00CAPPOUCL              *
+0201082457520200018852V07417791        00000000000114281ZAVARCE S.           OCTAVIO R                                        00CAPPOUCL              *
+0201082457500200040750V07418898        00000000000024982ORELLANA V.          RAFAELA DEL C                                    00CAPPOUCL              *
+0201082433880100090385V07418939        00000000000116748PEREZ A.             JOSE L.                                          00CAPPOUCL              *
+0201082457520200018933V07419340        00000000000038462ORELLANA B.          WILLIAM JOSE                                     00CAPPOUCL              *
+0201082457590200018658V07419740        00000000000121327ALVARADO DE G.       YULITH R.                                        00CAPPOUCL              *
+0201082457550200018968V07419800        00000000000074796RIVERO               DIGNA MARISOL                                    00CAPPOUCL              *
+0201082457570200018984V07419866        00000000000131474URQUIOLA G.          RICHARD                                          00CAPPOUCL              *
+0201082457570200019018V07420316        00000000000040454YEPEZ H.             JUANA BEATRIZ                                    00CAPPOUCL              *
+0201082457580200019026V07420429        00000000000050179CARRASCO B.          LUIS ALBERTO                                     00CAPPOUCL              *
+0201082457590200019115V07423415        00000000000032166PEREZ G.             FREDDY ANTONIO                                   00CAPPOUCL              *
+0201082457500200019123V07423444        00000000000064332PEREZ                MIGUEL ANGEL                                     00CAPPOUCL              *
+0201082457590200038330V07425063        00000000000153179RODRIGUEZ R          LIGIA R                                          00CAPPOUCL              *
+0201082457560200019190V07425430        00000000000080421PEÑA MENDOZA         JUAN RAMON                                       00CAPPOUCL              *
+0201082457530200019247V07425900        00000000000037130GARCIA G.            ROGER RAQUEL                                     00CAPPOUCL              *
+0201082457550200019263V07426046        00000000000116111GUASIMUCARO L.       HENRY JOSE                                       00CAPPOUCL              *
+0201082457550200019344V07427520        00000000000059968YSAZA                GUILLERMO ANTONIO                                00CAPPOUCL              *
+0201082457550200019425V07429274        00000000000026850QUINTERO             ROY DAVID                                        00CAPPOUCL              *
+0201082457530200127996V07432253        00000000000025991FLORES PEREZ         ALI JOSE                                         00CAPPOUCL              *
+0201082457510200139463V07434591        00000000000030729MONTILLA JUAN AGUSTIN                                                 00CAPPOUCL              *
+0201082457500200019557V07435158        00000000000038599GARCIA D.            ROSAURA J.                                       00CAPPOUCL              *
+0201082457570200019603V07436077        00000000000263681RODRIGUEZ C.         EVELIO JOSE                                      00CAPPOUCL              *
+0201082457510200034874V07436996        00000000000069032GIMENEZ              ERNESTO LEONEL                                   00CAPPOUCL              *
+0201082457510200019654V07437806        00000000000078335GARRIDO              YAMILETH DEL V.                                  00CAPPOUCL              *
+0201082457520200019662V07437808        00000000000076805GARRIDO              CARMEN M.                                        00CAPPOUCL              *
+0201082457500200019719V07438450        00000000000037308GIMENEZ P.           RAMON YSAIAS                                     00CAPPOUCL              *
+0201082457520200019743V07439597        00000000000049812RODRIGUEZ C.         CARLOS OMAR                                      00CAPPOUCL              *
+0201082401030200217175V07439629        00000000000056081PIÑA. L.             JUAN. I.                                         00CAPPOUCL              *
+0201082457510200019816V07440809        00000000000049901APOSTOL R.           MIRLA PASTORA                                    00CAPPOUCL              *
+0201082457520200019824V07442445        00000000000146963CASTAÑEDA A.         FRANCISCO J                                      00CAPPOUCL              *
+0201082457520200035358V07444497        00000000000025991LOPEZ COLMENAREZ    YOLANDA COROMOTO                                  00CAPPOUCL              *
+0201082457510200116501V07444651        00000000000058971CAMACARO H           WILMER J                                         00CAPPOUCL              *
+0201082457570200001232V07444842        00000000000165341ARRIECHE V.          RAFAEL A                                         00CAPPOUCL              *
+0201082457590200019891V07444889        00000000000025991LINAREZ E.           CARLOS E.                                        00CAPPOUCL              *
+0201082457500200127953V07446382        00000000000075615CAMACARO C.          JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457500200019980V07446644        00000000000087130CHIRINOS             CARLOS GREGORIO                                  00CAPPOUCL              *
+0201080908840200031691V07447067        00000000000228413GONZALEZ L           GERARDO J                                        00CAPPOUCL              *
+0201082457570200020024V07447334        00000000000117033ARRIECHE P.          EDDIE RODRIGO                                    00CAPPOUCL              *
+0201082457500200020059V07447992        00000000000068224ISAZA P.             BERTHA P.                                        00CAPPOUCL              *
+0201082457500200035323V07449457        00000000000071154VISCAYA P.           PEDRO A.                                         00CAPPOUCL              *
+0201082457590200020202V07455429        00000000000112080PERNALETE T.         ORQUIDEA                                         00CAPPOUCL              *
+0201082457500200020210V07455588        00000000000037130BETANCOURT C.        TEODORA C.                                       00CAPPOUCL              *
+0201082457560200020369V07465910        00000000000034954SUAREZ C.            SANTOS ALEXIS                                    00CAPPOUCL              *
+0201082457570200020377V07466779        00000000000215860PEREZ                OMAR JOSE                                        00CAPPOUCL              *
+0201082457580200020466V07548386        00000000000043638TERAN LUNA           ALFREDO A                                        00CAPPOUCL              *
+0201082419290200022348V07548420        00000000000037420GONZALEZ             JUAN                                             00CAPPOUCL              *
+0201082457510200020733V07981510        00000000000094864GIL VILORIA          JOSE RAMON                                       00CAPPOUCL              *
+0201082439710200086949V07982728        00000000000054291SILVA ESCALONA        CARLOS RAMON                                    00CAPPOUCL              *
+0201082457510200020741V07982865        00000000000182308RIERA TORRES             JOSE GREGORIO                                00CAPPOUCL              *
+0201082457550200035382V07983170        00000000000075991TORRES C.            PURA B.                                          00CAPPOUCL              *
+0201082457530200020768V07985605        00000000000076862LINAREZ P.           JUAN BAUTISTA                                    00CAPPOUCL              *
+0201082457550200020784V07988969        00000000000146241MENDOZA              NELSON A.                                        00CAPPOUCL              *
+0201082457510200020814V08054279        00000000000142038SANDOVAL             DOMITILO                                         00CAPPOUCL              *
+0201082413340200072768V08064487        00000000000134002SIVIRA               YACENIA P.                                       00CAPPOUCL              *
+0201082457560200020873V08140450        00000000000067527VARGAS               BARBARA DEL CARMEN                               00CAPPOUCL              *
+0201082457510200035269V08718789        00000000000060138VELASQUEZ            WILMER ENRIQUE                                   00CAPPOUCL              *
+0201082457530200059117V08734286        00000000000085862FRANCO L.            CARLOS G.                                        00CAPPOUCL              *
+0201082457530200021063V09100619        00000000000083254MONTILLA             JOSE DE JESUS                                    00CAPPOUCL              *
+0201082457560200082046V09211039        00000000000101403DAVILA DE PEREZ      INGRID YA                                        00CAPPOUCL              *
+0201082457570200021187V09261804        00000000000049776MONJES               JOSE LUIS                                        00CAPPOUCL              *
+0201082457520200021217V09317884        00000000000069378TERAN                ALCIDES EDUARDO                                  00CAPPOUCL              *
+0201082457500200021292V09433060        00000000000042458CASTILLO S.          RAFAEL ENRIQUE                                   00CAPPOUCL              *
+0201082457550200021322V09540845        00000000000063092CASTILLO C.          HONORIO DE J.                                    00CAPPOUCL              *
+0201082457510200021462V09542018        00000000000058511ARRIETA              LUIS ERNESTO                                     00CAPPOUCL              *
+0201082457520200021489V09542237        00000000000133283VASQUEZ C.           RAMON S.                                         00CAPPOUCL              *
+0201082457540200021586V09543530        00000000000101430LOPEZ C.             JUAN CARLOS                                      00CAPPOUCL              *
+0201082457550200021594V09544179        00000000000095471ALVAREZ LIENDO       NESTOR P.                                        00CAPPOUCL              *
+0201082457590200021608V09544345        00000000000128990DUNO R.              EDGAR JOSE                                       00CAPPOUCL              *
+0201082433890200050232V09544429        00000000000058971RIVERA               HECTOR EDUARDO                                   00CAPPOUCL              *
+0201082457500200021616V09544827        00000000000328630BRICEÑO FRANCO       JORGE LUIS                                       00CAPPOUCL              *
+0201082457510200021624V09545198        00000000000097759PEREZ DE S.          AURA MARINA                                      00CAPPOUCL              *
+0201082457510200021632V09545952        00000000000089684AÑEZ VARGAS          FLOR GREGORIA                                    00CAPPOUCL              *
+0201082457530200021659V09546474        00000000000030178MENDOZA PEÑUELA      GREGORIO                                         00CAPPOUCL              *
+0201082457570200021691V09547148        00000000000132963GONZALEZ A.          JORGE LUIS                                       00CAPPOUCL              *
+0201082457520200021721V09551389        00000000000086362PALMA P.             WILLIAM ARMANDO                                  00CAPPOUCL              *
+0201082457560200021764V09552709        00000000000143868GOMEZ S.             MIRNA EDITH                                      00CAPPOUCL              *
+0201082457510200038195V09553039        00000000000004981CARMONA G.           RUBEN D.                                         00CAPPOUCL              *
+0201082457570200021772V09553047        00000000000096533ARRIECHE A.          IVONNE D                                         00CAPPOUCL              *
+0201082457500200021888V09555077        00000000000078163GARCIA P.            JOSE EDUARDO                                     00CAPPOUCL              *
+0201082457550200021918V09555609        00000000000060594BRICEÑO TERAN        MARIA ELENA                                      00CAPPOUCL              *
+0201082457560200021926V09555641        00000000000096954ROJAS F.             RAFAEL ANTONIO                                   00CAPPOUCL              *
+0201082457580200021942V09557148        00000000000120765EREU                 MARIANO RAMON                                    00CAPPOUCL              *
+0201082457510200021985V09557803        00000000000039573HERNANDEZ A.         ARGENIS R.                                       00CAPPOUCL              *
+0201082457530200022035V09557875        00000000000129282QUERALES P.          NORYS E.                                         00CAPPOUCL              *
+0201082457580200022086V09558628        00000000000024660PINEDA               MARIA AUXILIADORA                                00CAPPOUCL              *
+0201082457590200022094V09560453        00000000000037527PEREZ  NUBIA DEL CARMEN                                               00CAPPOUCL              *
+0201082457540200022205V09577605        00000000000052538LUCENA TORRES        ANGEL                                            00CAPPOUCL              *
+0201082457560200078367V09601343        00000000000103500LUCENA C.            RICHARD B.                                       00CAPPOUCL              *
+0201082457590200022256V09603154        00000000000080812DUDAMEL M.           BLADIMIR A.                                      00CAPPOUCL              *
+0201082457510200022272V09603683        00000000000059721PALENCIA C.          JHONNY J                                         00CAPPOUCL              *
+0201082457510200022280V09603870        00000000000046000FREITEZ DE G.        DILCIA R.                                        00CAPPOUCL              *
+0201082457510200038284V09604166        00000000000061330REAÑEZ E.            WILFREDO J.                                      00CAPPOUCL              *
+0201082457510200052856V09604592        00000000000049321GIL COLMENAREZ       RAFAEL JOSE                                      00CAPPOUCL              *
+0201082457590200022418V09607091        00000000000085275UZCATEGUI            EDUARDO RAFAEL                                   00CAPPOUCL              *
+0201082457500200022426V09608547        00000000000065075GARRIDO              MARCIAL ANTONIO                                  00CAPPOUCL              *
+0201082457520200022450V09609337        00000000000004981CORRALES             CLARISA PASTORA                                  00CAPPOUCL              *
+0201082457550200035110V09609338        00000000000092959CORRALES CALLE       JORGE LUIS                                       00CAPPOUCL              *
+0201082457550200022485V09612117        00000000000049385GUTIERREZ P.         CARLOS A.                                        00CAPPOUCL              *
+0201082457510200036826V09612692        00000000000144422MEDINA R.            LUIS A.                                          00CAPPOUCL              *
+0201082416830200066853V09614364        00000000000142567HERNANDEZ            JORGE LUIS                                       00CAPPOUCL              *
+0201082457550200022647V09615964        00000000000179871GRATEROL DE P.       YAILILI C.                                       00CAPPOUCL              *
+0201082457580200022671V09617493        00000000000342096MENDEZ LOPEZ         MARLENE H.                                       00CAPPOUCL              *
+0201082457510200067101V09620248        00000000000108405MARTINEZ L.          GERARDO                                          00CAPPOUCL              *
+0201082457590200022760V09620376        00000000000141268QUERALES P.          JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457500200022779V09620599        00000000000015075PEREZ AGUILAR        JOSE LUIS                                        00CAPPOUCL              *
+0201082457510200035331V09620701        00000000000116445ESCALONA P.          DIONICIO A.                                      00CAPPOUCL              *
+0201082457510200022787V09620720        00000000000054981CARMONA G.           HORACIO RAMON                                    00CAPPOUCL              *
+0201082433890100090393V09621777        00000000000115425SILVA P.             EDUAR ENRIQUE                                    00CAPPOUCL              *
+0201082457560200038306V09622347        00000000000066263VARGAS C.            JOSE RAFAEL                                      00CAPPOUCL              *
+0201082457580200022833V09624370        00000000000102357OSAL G.              JULIO ENRIQUE                                    00CAPPOUCL              *
+0201082457550200069287V09625361        00000000000021122TORRES RUIZ          RAFAEL JOSE                                      00CAPPOUCL              *
+0201082457520200035196V09626082        00000000000067870FREITEZ S.           DICHSON R                                        00CAPPOUCL              *
+0201082457510200052775V09626215        00000000000165540CASTILLO             JOSE GREGOR                                      00CAPPOUCL              *
+0201082457500200022930V09627150        00000000000111691ESCALONA G.          FRANKLIN                                         00CAPPOUCL              *
+0201082407920200192132V09627523        00000000000020247BRITO C.             NAUDYS HERNAN                                    00CAPPOUCL              *
+0201082457510200054212V09627724        00000000000136768CANELON O.           VICTORIA                                         00CAPPOUCL              *
+0201082401040200771369V09629963        00000000000052538PAEZ R.              IMER ENRIQUE                                     00CAPPOUCL              *
+0201082431130200026462V09631462        00000000000038599AMAYA GIL            MARCOS TULIO                                     00CAPPOUCL              *
+0201082457540200022981V09634554        00000000000055694PASTRAN C.           FREDIZ G.                                        00CAPPOUCL              *
+0201082457550200023023V09636806        00000000000087130RODRIGUEZ B.         NANCY Y                                          00CAPPOUCL              *
+0201082457560200023031V09638320        00000000000102462ESCALONA             RAMON JOSE                                       00CAPPOUCL              *
+0201082457580200023139V09845319        00000000000087130LUCENA L.            MARILUZ G.                                       00CAPPOUCL              *
+0201082402810200064617V09847068        00000000000037130RODRIGUEZ            RAFAEL RAMON                                     00CAPPOUCL              *
+0201082457590200023147V09847350        00000000000064503SUAREZ A.            ISMAEL JOSE                                      00CAPPOUCL              *
+0201082455900200062885V09848693        00000000000074808MOGOLLON R.          RAFAEL D                                         00CAPPOUCL              *
+0201082457510200023171V09850403        00000000000048654ZAMBRANO A.          WILLIAM                                          00CAPPOUCL              *
+0201082457590200023228V09851993        00000000000015075MOGOLLON R.          MAURO JOSE                                       00CAPPOUCL              *
+0201082457540200023368V10107724        00000000000066540RONDON R.            JOSE ANTONIO                                     00CAPPOUCL              *
+0201082439760200087376V10120357        00000000000098678TORRES P.            PEDRO J.                                         00CAPPOUCL              *
+0201082439760200111269V10121866        00000000000037130SUAREZ C.            ALEXIS A.                                        00CAPPOUCL              *
+0201082439710200086930V10125466        00000000000049719MENDOZA PEREZ        SOLEIDA Y.                                       00CAPPOUCL              *
+0201082457510200034521V10126656        00000000000158293ALVARADO             RAFAEL JOSE                                      00CAPPOUCL              *
+0201082457580200023481V10312414        00000000000087701RODRIGUEZ M.         CEFERINO A.                                      00CAPPOUCL              *
+0201082457500200023589V10373550        00000000000064658CHIRINOS PARRA         DULCE C.                                       00CAPPOUCL              *
+0201082457580200023724V10639752        00000000000004981HERNANDEZ G.         IDALMIS H.                                       00CAPPOUCL              *
+0201082457550200122439V10726693        00000000000021658ESCALONA ALVARADO    MELBIS JOSE                                      00CAPPOUCL              *
+0201082457520200023775V10764554        00000000000073124GAONA ZAMBRANO       JUAN C                                           00CAPPOUCL              *
+0201082457580200023805V10770124        00000000000118513REA V.               ALEXIS EUCLIDES                                  00CAPPOUCL              *
+0201082457570200035218V10772668        00000000000075991LINAREZ A.           MARLON A.                                        00CAPPOUCL              *
+0201082457580200139781V10774121        00000000000125375VIRGUEZ AGUILAR      DIXON FEL                                        00CAPPOUCL              *
+0201082457510200023910V10775520        00000000000146569ROJAS R.             JAIME RAFAEL                                     00CAPPOUCL              *
+0201082457590100037388V10776915        00000000000088694CRESPO HERNANDEZ     EDDY TIBISAY                                     00CAPPOUCL              *
+0201082457590200034858V10777645        00000000000056532RANGEL S.            JOSE G.                                          00CAPPOUCL              *
+0201082407930100059915V10778464        00000000000116291SANCHEZ PEROZO       NYREE ZIKI                                       00CAPPOUCL              *
+0201082457500200024046V10779723        00000000000179209MENDOZA Z.           ALFREDO J                                        00CAPPOUCL              *
+0201082457510200024054V10784623        00000000000122418ALVARADO             RAMON ANTONIO                                    00CAPPOUCL              *
+0201082413300100092257V10820078        00000000000040192VELIZ                LUIS ERNESTO                                     00CAPPOUCL              *
+0201082457540200024097V10840266        00000000000192041ORELLANA B.          ALCIDES JOSE                                     00CAPPOUCL              *
+0201082457510200128348V10841061        00000000000038170RODRIGUEZ R.         CARLOS                                           00CAPPOUCL              *
+0201082413340100077908V10841823        00000000000077838MORGIONE COVIS       GENNARO                                          00CAPPOUCL              *
+0201082457510200024216V10842205        00000000000053954JIMENEZ A.           EDUARDO A.                                       00CAPPOUCL              *
+0201082457530200024240V10843324        00000000000021699CISNERO S.           ALBERTO R                                        00CAPPOUCL              *
+0201082457570200024283V10844947        00000000000093313GARCIA RIVERO        JORGE M.                                         00CAPPOUCL              *
+0201082457560200119144V10845717        00000000000045435GONZALEZ P.          KEIDA J.                                         00CAPPOUCL              *
+0201082457520200024313V10845943        00000000000041865VARGAS F.            WILMA JOSEFINA                                   00CAPPOUCL              *
+0201082457520200038020V10846474        00000000000074173DUARTE G.            GENRRY E.                                        00CAPPOUCL              *
+0201082457570200024364V10846532        00000000000063450CASTILLO P.          JOSE DE JESUS                                    00CAPPOUCL              *
+0201082457580200024372V10846629        00000000000056826MENDEZ G.            PABLO JOSE                                       00CAPPOUCL              *
+0201082457500200024399V10846940        00000000000198712PIÑA A.              RAFAEL ANTONIO                                   00CAPPOUCL              *
+0201082457560200034157V10846985        00000000000080986ESCALONA E.          HOMERO J.                                        00CAPPOUCL              *
+0201082447870200073514V10847648        00000000000041206GIMENEZ A.           HECTOR J.                                        00CAPPOUCL              *
+0201082457570200024445V10848158        00000000000169404VASQUEZ H.           JORGE LUIS                                       00CAPPOUCL              *
+0201082447810200073484V10849906        00000000000077873APOSTOL R.           CARLOS E.                                        00CAPPOUCL              *
+0201082407940200298496V10849907        00000000000082703GRATEROL M. JHONNY P.                                                 00CAPPOUCL              *
+0201082447800200073549V10860593        00000000000030467MELENDEZ G.          VIDAL RAMON                                      00CAPPOUCL              *
+0201082457580200024615V10903693        00000000000030626MENDEZ               HILDA ROSA                                       00CAPPOUCL              *
+0201082439790200060605V10959957        00000000000058462BASTIDA GOYO         NAHUM JOSE                                       00CAPPOUCL              *
+0201082439700200060613V10960021        00000000000037130RIERA T.             ORLANDO                                          00CAPPOUCL              *
+0201082457520200034548V10963442        00000000000015113RODRIGUEZ A.         JOSE A.                                          00CAPPOUCL              *
+0201082407980200312510V10964062        00000000000025991MALDONADO T.         FRANCISBEL M                                     00CAPPOUCL              *
+0201082457530200024836V11163187        00000000000120187CALDERON             BELKIS                                           00CAPPOUCL              *
+0201080119250200311113V11177533        00000000000067548AVILAN A.            ISBELIA M.                                       00CAPPOUCL              *
+0201082457590200024895V11260715        00000000000004981REAÑEZ               ELIZABETH DEL C.                                 00CAPPOUCL              *
+0201082457510200052783V11261772        00000000000079087GIL G.               IVAN A.                                          00CAPPOUCL              *
+0201082457520200142863V11262378        00000000000065075PAEZ                 NEIDA NOHEMY                                     00CAPPOUCL              *
+0201082457530200035013V11263756        00000000000016131COLMENAREZ R.        MARIA M                                          00CAPPOUCL              *
+0201082407940100170603V11264465        00000000000069116ROJAS GIL  MARIA SALOME                                               00CAPPOUCL              *
+0201082457590200024976V11264550        00000000000032166TERAN P.             WILFREDO NEPTALI                                 00CAPPOUCL              *
+0201082445190200133265V11265527        00000000000141021SEGUERI LOYO         ADRIAN JOSE                                      00CAPPOUCL              *
+0201080526130200142691V11266390        00000000000111508ARELLANO MORA        NESTOR ANTONIO                                   00CAPPOUCL              *
+0201082457570200025093V11267811        00000000000744422FLORES P.            JOSE G.                                          00CAPPOUCL              *
+0201082457500200035161V11267932        00000000000169608MARCHAN              ERIKA ISABEL                                     00CAPPOUCL              *
+0201082457510200025107V11268437        00000000000164021URANGA G.            EDWARD RAFAEL                                    00CAPPOUCL              *
+0201082457550200025158V11269196        00000000000056826ANZOLA BASTIDA       BLADIMIR                                         00CAPPOUCL              *
+0201082433820200241100V11414487        00000000000028949BUSTILLOS            KENT JOEL                                        00CAPPOUCL              *
+0201082457550200025239V11425214        00000000000032166GIMENEZ P.           CARLOS A.                                        00CAPPOUCL              *
+0201082457590200034939V11425449        00000000000021444SUAREZ C.            WINSTOR P.                                       00CAPPOUCL              *
+0201082447810200073565V11426462        00000000000026590MOYETONES M.         PEDRO MARIA                                      00CAPPOUCL              *
+0201082457590200025352V11428034        00000000000072115CADEVILLA L.         GUSTAVO A.                                       00CAPPOUCL              *
+0201082457510200025387V11428889        00000000000022243RODRIGUEZ G.         WILMER JOSE                                      00CAPPOUCL              *
+0201082457520200025395V11429539        00000000000067184ALVARADO AGUILAR     JORGE L.                                         00CAPPOUCL              *
+0201082457560100039992V11429792        00000000000058156MADRIZ C.            GIOVANNY A.                                      00CAPPOUCL              *
+0201082457510200038012V11429991        00000000000097177BRICEÑO C.           ASDRUBAL                                         00CAPPOUCL              *
+0201082457570200025417V11430700        00000000000122689VASQUEZ R.           JAVID ALFREDO                                    00CAPPOUCL              *
+0201082457570200038314V11433167        00000000000099751OLLARVES F.          LUIS J.                                          00CAPPOUCL              *
+0201082457520200129336V11434350        00000000000027877RODRIGUEZ L.         ALEXANDER GRE                                    00CAPPOUCL              *
+0201082457510200025530V11546168        00000000000017691PERAZA F.            LUIS ROBERTO                                     00CAPPOUCL              *
+0201082457540200025573V11584952        00000000000023267SEQUERA  O.          CESAR  E                                         00CAPPOUCL              *
+0201082457590200116315V11586448        00000000000115237ESCALONA M.          MOISES A                                         00CAPPOUCL              *
+0201082457590200122471V11589730        00000000000025978BETANCOURT           CESAR ANTONIO                                    00CAPPOUCL              *
+0201082457560100032041V11594236        00000000000037130DURAN B.             JESUS ALEXANDER                                  00CAPPOUCL              *
+0201082401030100238272V11594524        00000000000029798GUEDEZ T.            JOSE JAVIER                                      00CAPPOUCL              *
+0201082457560200025670V11596252        00000000000050000DURAN C.             RAFAEL EDUARDO                                   00CAPPOUCL              *
+0201082433840200236476V11597667        00000000000047838PARADA C.            RICHARD ENRIQUE                                  00CAPPOUCL              *
+0201080908830200048659V11598121        00000000000040100MENDOZA TONA         JUAN CARLOS                                      00CAPPOUCL              *
+0201082457520100064555V11598207        00000000000089505PEREZ                ROLANDO JOSE                                     00CAPPOUCL              *
+0201082457510200090952V11633896        00000000000063939TORO PEREZ           AQUILES RAFAEL                                   00CAPPOUCL              *
+0201082447810200073719V11645810        00000000000023077RODRIGUEZ M.         LUIS A.                                          00CAPPOUCL              *
+0201082447800200073891V11651090        00000000000027842PINEDA YORMAN A.                                                      00CAPPOUCL              *
+0201082447830200073581V11652405        00000000000048651PARADA MORA          JOSE LEOCADIO                                    00CAPPOUCL              *
+0201082447880200073603V11653864        00000000000016788QUINTERO E.          FELIX RAMON                                      00CAPPOUCL              *
+0201082457560200113618V11694358        00000000000025991ALVAREZ G.           JOSE F.                                          00CAPPOUCL              *
+0201082457510200025964V11694758        00000000000015075ROJAS                VALDEMAR ANTONIO                                 00CAPPOUCL              *
+0201082457510200025972V11695394        00000000000053610CASTILLO C.          NELIDA R                                         00CAPPOUCL              *
+0201082457510200034963V11749469        00000000000114332ZAPATA               MILDRED YULITZA                                  00CAPPOUCL              *
+0201082457520200034971V11783201        00000000000126510PEREZ G.             ALEXANDER A                                      00CAPPOUCL              *
+0201082457540200036850V11783366        00000000000068867COLMENAREZ CH.       DEIBIS G.                                        00CAPPOUCL              *
+0201082457530200035366V11784637        00000000000069049BRITO M.             YASMIN Y.                                        00CAPPOUCL              *
+0201082457530200034203V11786325        00000000000030558RODRIGUEZ M.         ROGELIO J.                                       00CAPPOUCL              *
+0201082457580200026235V11786432        00000000000057292PEREZ H.             HENDRICK JAVIER                                  00CAPPOUCL              *
+0201082457570200026308V11787653        00000000000144422CASTILLO M.          EDGAR JOSE                                       00CAPPOUCL              *
+0201082457590200026324V11788587        00000000000041762SANCHEZ E.           REGGIE N.                                        00CAPPOUCL              *
+0201082457540100073058V11788630        00000000000115268MONTERO C.           JESUS RAFAEL                                     00CAPPOUCL              *
+0201082457540200026383V11790273        00000000000119743GOMEZ FREITEZ        ANA PASTORA                                      00CAPPOUCL              *
+0201082457590200026405V11790818        00000000000065075VASQUEZ C.           FRANKLIN O.                                      00CAPPOUCL              *
+0201080061770100201103V11791177        00000000000041172ALEJANDRIA C.        ABRAHAN JOSE                                     00CAPPOUCL              *
+0201080087100200473889V11792506        00000000000021444HERNANDEZ S.         NINOSKA DEL                                      00CAPPOUCL              *
+0201082457550200026472V11792846        00000000000042566VALLES SIRA          JOSE LUIS                                        00CAPPOUCL              *
+0201082457520200026529V11878930        00000000000003943GOMEZ                ORLANDO DANIEL                                   00CAPPOUCL              *
+0201082457560200093404V11879419        00000000000162040SILVA GARCIA         RAFAEL ANDRES                                    00CAPPOUCL              *
+0201080061710100100129V11881224        00000000000089196ROJAS HERNANDEZ      REINALDO                                         00CAPPOUCL              *
+0201082457570200075511V11881668        00000000000015075MONTILLA GONZALEZ    ROSA M.                                          00CAPPOUCL              *
+0201082457540200026707V11882720        00000000000026376PEREZ Z.             JUAN CARLOS                                      00CAPPOUCL              *
+0201082457500100039410V11883300        00000000000097869MARIN CORDERO             ANTONIO JOSE                                00CAPPOUCL              *
+0201082457510200118709V12011761        00000000000053571ROMERO R.            ALFONSO E.                                       00CAPPOUCL              *
+0201080501570100099180V12018571        00000000000058591MARQUEZ P.           JOSE LUIS                                        00CAPPOUCL              *
+0201082457500200139374V12018729        00000000000063952PERALTA ROMAN        LISETH YANI                                      00CAPPOUCL              *
+0201082401070200315703V12018852        00000000000050807CONDES A.            HECTOR JOSE                                      00CAPPOUCL              *
+0201082457510200026863V12019816        00000000000044547SANCHEZ              NERIS ALICIA                                     00CAPPOUCL              *
+0201082457540200026898V12020535        00000000000046022ALVAREZ              JOSE PASTOR                                      00CAPPOUCL              *
+0201082457560200139412V12021559        00000000000042476BRICEÑO DURAN        NELSON E.                                        00CAPPOUCL              *
+0201082407940200279866V12022428        00000000000035382RODRIGUEZ D.         DARWIN J.                                        00CAPPOUCL              *
+0201082457530200092165V12023306        00000000000094867FRANCO               ALIBERT ANDERSON                                 00CAPPOUCL              *
+0201080501520100099725V12023981        00000000000077734CUMARE               ANA ARACELIS                                     00CAPPOUCL              *
+0201082447850200091822V12024179        00000000000071152GIL RIVAS            JUAN DE JESUS                                    00CAPPOUCL              *
+0201082457530200076208V12025294        00000000000002808LEON VELASQUEZ       JOSE G.                                          00CAPPOUCL              *
+0201082457580200059087V12026565        00000000000086518LEON                 GUILLERMO ENRIQUE                                00CAPPOUCL              *
+0201080501560100099253V12027093        00000000000062866VALERO M.            JAIRO A.                                         00CAPPOUCL              *
+0201082457570200035137V12027260        00000000000061151PERDOMO C.           OMAIRA M.                                        00CAPPOUCL              *
+0201082457510200035188V12027527        00000000000045858LOPEZ L.             ROSIRIS K.                                       00CAPPOUCL              *
+0201082432010100081356V12027928        00000000000016566LOPEZ C.  HERLINDA Y.                                                 00CAPPOUCL              *
+0201082457520100060568V12027973        00000000000143711PEREZ M.             ORLANDO J.                                       00CAPPOUCL              *
+0201082457510200035099V12241212        00000000000026805PEROZO R.            MARLIS J.                                        00CAPPOUCL              *
+0201082457510100043531V12242270        00000000000037130ARRIETA B.           DEIVY R.                                         00CAPPOUCL              *
+0201082457530100060576V12243077        00000000000037130CARUCI C.            NORKIS OLIVA                                     00CAPPOUCL              *
+0201082457560200035048V12244707        00000000000074839MARTINEZ DE BRITO    THAIS M                                          00CAPPOUCL              *
+0201082407910200260995V12247738        00000000000048463SILVA KAZEN          CESAR JOSE                                       00CAPPOUCL              *
+0201080501580100099199V12248400        00000000000049280TAMAYO GUTIERREZ     JOSE LUIS                                        00CAPPOUCL              *
+0201082457510200081791V12248755        00000000000059467ESPINOZA P.          MAYCOLL                                          00CAPPOUCL              *
+0201080908840200048667V12248784        00000000000049012RODRIGUEZ            LUIS MANUEL                                      00CAPPOUCL              *
+0201082457550200027606V12248960        00000000000130655VARGAS F.            YORLE ANTONIO                                    00CAPPOUCL              *
+0201082457560200093161V12249178        00000000000080236VIRGUEZ G.           DARWIN Y.                                        00CAPPOUCL              *
+0201082457580200027711V12314254        00000000000169014CASTELLANO A.        VICENTE E.                                       00CAPPOUCL              *
+0201082439700100062090V12369466        00000000000016083DOMINGUEZ LINAREZ RICHARD RAFAEL                                      00CAPPOUCL              *
+0201082457530200027770V12370670        00000000000065940PEREZ L.             EWARD PASTOR                                     00CAPPOUCL              *
+0201080087160100127282V12434895        00000000000029930PEREZ P.             FRANK NICOLAS                                    00CAPPOUCL              *
+0201082457510200038276V12435304        00000000000038385FIGUEROA  SOTERAN    LUIS A.                                          00CAPPOUCL              *
+0201082457570100039658V12435757        00000000000061802VARGAS C.            JANETH GREGORIA                                  00CAPPOUCL              *
+0201082456760200149331V12527456        00000000000042793BARRIOS G.           JUAN P.                                          00CAPPOUCL              *
+0201082457590200028025V12534356        00000000000167559GRATEROL MAVARE      NELSON J.                                        00CAPPOUCL              *
+0201082447850200073689V12536172        00000000000099460RIVAS B.             JOSE R.                                          00CAPPOUCL              *
+0201082401020200318869V12536549        00000000000054981BRAVO GUERRERO       LANDY KARL                                       00CAPPOUCL              *
+0201080087140100127428V12638103        00000000000036105PEÑA M.              ANTONIO J.                                       00CAPPOUCL              *
+0201082457580200052740V12691465        00000000000074222LUCENA               JESUS EDUARDO                                    00CAPPOUCL              *
+0201082457580200028289V12698409        00000000000093956PIRE S.              YISMELLY PASTORA                                 00CAPPOUCL              *
+0201082457560200028343V12698965        00000000000126683PIÑA                 DAISY GREGORIA                                   00CAPPOUCL              *
+0201082457540200046147V12701276        00000000000090485SANCHEZ C.           JOSE P.                                          00CAPPOUCL              *
+0201082457500200052767V12701301        00000000000037130AMARO AMARO          PABLO A.                                         00CAPPOUCL              *
+0201082457500200028467V12702273        00000000000151111PEROZO C.            RAFAEL A.                                        00CAPPOUCL              *
+0201080908850200048675V12704473        00000000000035577MORA SIVIRA          IRIAN NEPTALI                                    00CAPPOUCL              *
+0201082457510200127880V12704482        00000000000037130GOMEZ R.             CARLOS EDUARDO                                   00CAPPOUCL              *
+0201082457590200139528V12704649        00000000000041708PEÑA C.              JULIO C.                                         00CAPPOUCL              *
+0201082457590200035234V12704927        00000000000087130GOMEZ M.             JUAN C.                                          00CAPPOUCL              *
+0201082457580200054018V12705860        00000000000004981RAGA                 JUSTA MILETZA                                    00CAPPOUCL              *
+0201082407910200275836V12706171        00000000000124799FERNANDEZ G.         DANIEL                                           00CAPPOUCL              *
+0201080908850100072560V12706774        00000000000031996RODRIGUEZ  JOSUE JAVIER                                               00CAPPOUCL              *
+0201082457550200028920V12848719        00000000000150028ARRIECHE P.          SILVIO A.                                        00CAPPOUCL              *
+0201082457580200028955V12849330        00000000000127797CORDERO SANCHEZ      ROBERT A.                                        00CAPPOUCL              *
+0201082447880200073522V12851330        00000000000081429GIMENEZ A.           JOSE GREGORIO                                    00CAPPOUCL              *
+0201082457570200029080V12852888        00000000000037130VASQUEZ F.           ERICKSON MILLER                                  00CAPPOUCL              *
+0201082457540100081158V12858616        00000000000054682BELLO L.  MIGUEL A.                                                   00CAPPOUCL              *
+0201082457500200035080V12878256        00000000000061530TORRES D.            SABAD ANTONIO                                    00CAPPOUCL              *
+0201082401040200553965V12884972        00000000000037130DIAZ LUNA            ARGIMIRO A                                       00CAPPOUCL              *
+0201082457540200029218V12934142        00000000000042079RANGEL Y.            DARWIN A.                                        00CAPPOUCL              *
+0201082457550200034491V12934525        00000000000033452LOPEZ                HEIDY JHOANA                                     00CAPPOUCL              *
+0201082457500200053143V12935305        00000000000037130RIVERO A.            GAUDY J.                                         00CAPPOUCL              *
+0201082457580200035307V12935606        00000000000099321SALCEDO              WILMER ELEAZAR                                   00CAPPOUCL              *
+0201082457520100039445V13032012        00000000000155198GONZALEZ M.          ANDRES E.                                        00CAPPOUCL              *
+0201082457570100057044V13032033        00000000000078480SZURPIK CASTILLO  MIGUEL J                                            00CAPPOUCL              *
+0201082447810200073476V13034237        00000000000062862ALVARADO G.          JUAN DE LA C.                                    00CAPPOUCL              *
+0201082457590200052759V13035222        00000000000093031SERRANO G.           RAFAEL E.                                        00CAPPOUCL              *
+0201082457550200062002V13084488        00000000000057292CASTRO G.            MARTIN R.                                        00CAPPOUCL              *
+0201082457510200035412V13084886        00000000000109593VELIZ Q.             ORDALYS L.                                       00CAPPOUCL              *
+0201082401020200359891V13180551        00000000000087130ANDRADE M.           FREDDY E.                                        00CAPPOUCL              *
+0201082457520200035277V13187744        00000000000143555PEREZ                JOSE GREGORIO                                    00CAPPOUCL              *
+0201082413320200388978V13187816        00000000000032166DAVILA V.            FRANCISCO J.                                     00CAPPOUCL              *
+0201080119230200369448V13188137        00000000000110908HERNANDEZ S.         HECTOR JOSE                                      00CAPPOUCL              *
+0201082419210200104840V13188604        00000000000015075MATUTE G.            JOSE ALEXANDER                                   00CAPPOUCL              *
+0201082457500200116323V13264411        00000000000143180SEIJAS J.            DARWIN IGNACIO                                   00CAPPOUCL              *
+0201082407990200336894V13265462        00000000000058971SANCHEZ A.  ZULEIMA NAILET                                            00CAPPOUCL              *
+0201082407930100115335V13265946        00000000000098249SUAREZ M. ALEX JOSE                                                   00CAPPOUCL              *
+0201082457590200035153V13266369        00000000000062273ISEA               DIXON BELL                                         00CAPPOUCL              *
+0201082405220100089112V13268000        00000000000160713DIAZ LEAL  DANIEL JOSE                                                00CAPPOUCL              *
+0201082457570200119152V13268457        00000000000071337MAVARE PEREZ  LISBETH DEL                                             00CAPPOUCL              *
+0201082457550100043582V13268537        00000000000047011ARRIECHI M.          HONORIO H.                                       00CAPPOUCL              *
+0201082411770100074053V13343258        00000000000054682BOQUILLON ALVARADO MARLYS NAZARETH                                    00CAPPOUCL              *
+0201082457580200085169V13408041        00000000000053074GUTIERREZ PEREZ      DARRY J.                                         00CAPPOUCL              *
+0201082401010200860787V13510172        00000000000063639YAJURE P.            LUIS A.                                          00CAPPOUCL              *
+0201082407920200265113V13510180        00000000000037130VASQUEZ RONDON       JHONNYS H.                                       00CAPPOUCL              *
+0201082439720200029058V13519440        00000000000045510PEREZ ESCOBAR TOMAS AQUINO                                            00CAPPOUCL              *
+0201080908800100048392V13527636        00000000000054981GARCIA M.            RUBEN DARIO                                      00CAPPOUCL              *
+0201082457520200084138V13566631        00000000000119743PEREZ M.             EDUARDO PASTOR                                   00CAPPOUCL              *
+0201082457560200139331V13643981        00000000000062644MARCHAN G.           CHARLIE KARELYA                                  00CAPPOUCL              *
+0201082457510200128437V13643982        00000000000045139LEON VELASQUEZ       LEIDY KAREN                                      00CAPPOUCL              *
+0201082457580200149663V13644051        00000000000031630RIVERO P-            VICTOR MANUEL                                    00CAPPOUCL              *
+0201080501590100099288V13644555        00000000000081786SANCHEZ P.           ELSA N.                                          00CAPPOUCL              *
+0201080061780200434628V13644665        00000000000042023RIVAS SANDOVAL       JOSE M.                                          00CAPPOUCL              *
+0201082457520200139722V13644680        00000000000058864MENDOZA A.           PEDRO JOSE                                       00CAPPOUCL              *
+0201080087150200497427V13652653        00000000000083571LOPEZ LEON  FRANCYS CAROLIN                                           00CAPPOUCL              *
+0201082457580200095474V13674854        00000000000030388SUAREZ SISIRUCA      CARLOS L.                                        00CAPPOUCL              *
+0201082456770200187195V13678214        00000000000041708MENDOZA M.           OSCAR JOSE                                       00CAPPOUCL              *
+0201082439730200123674V13678857        00000000000067656CROQUER R.           EDWAR V.                                         00CAPPOUCL              *
+0201082457580200122382V13679940        00000000000049154MENDOZA ANGEL        ANTONIO                                          00CAPPOUCL              *
+0201082457520100043558V13724134        00000000000076455GARCIA R.            GERARDO J.                                       00CAPPOUCL              *
+0201082457530200031107V13774187        00000000000016566PINEDA               ISVELIA COROMOTO                                 00CAPPOUCL              *
+0201082457530100039453V13774684        00000000000066113AZUAJE               ALEXANDER RAMON                                  00CAPPOUCL              *
+0201080526130200156560V13775452        00000000000151703FRANCO FREITEZ       VICTOR MAN                                       00CAPPOUCL              *
+0201082453250200012038V13775808        00000000000098999TIMAURE A.           LEONIDAS A.                                      00CAPPOUCL              *
+0201082457560100039488V13777181        00000000000071444MARTINEZ             LEIMA YASMIRA                                    00CAPPOUCL              *
+0201082457520200146931V13785046        00000000000149344ANGULO P.            FRANCISCO JOSE                                   00CAPPOUCL              *
+0201082457590200031247V13785661        00000000000091492ORTIZ LOYO      JAIRO JOSE                                            00CAPPOUCL              *
+0201082457550200094710V13785997        00000000000073054RODRIGUEZ A          WILLIAM                                          00CAPPOUCL              *
+0201082407930100066539V13786181        00000000000067724HERNANDEZ L.  JOSE V.                                                 00CAPPOUCL              *
+0201082457510200031263V13787208        00000000000088600GARCIA R.            DOMINGO ANTONIO                                  00CAPPOUCL              *
+0201080087140100127266V13787741        00000000000101507ALVARADO F.          RAFAEL JOSE                                      00CAPPOUCL              *
+0201082416820200254250V13842354        00000000000105952PERNIA R.            MARCO A.                                         00CAPPOUCL              *
+0201082457520200034890V13843775        00000000000018406JUAREZ M.            NESTOR G.                                        00CAPPOUCL              *
+0201082457500200034947V13856268        00000000000037130SIRA S.              EDGAR E.                                         00CAPPOUCL              *
+0201082457560200141581V13867427        00000000000084615ESCALONA PEREZ       OLVYS JOSE                                       00CAPPOUCL              *
+0201080061720200684861V13868652        00000000000044818BARRERA G.           YANNERYCA                                        00CAPPOUCL              *
+0201082439760100040755V13880177        00000000000095032YEPEZ P. GIOVANNY R.                                                  00CAPPOUCL              *
+0201082457520200055464V13880981        00000000000116228SEQUERA R.           MIGUEL A.                                        00CAPPOUCL              *
+0201082419290200052174V13905892        00000000000015075ESPINOZA RIVERO      JOSE L.                                          00CAPPOUCL              *
+0201082433860200236492V13986119        00000000000040743LINAREZ PEROZA       HENYERSON                                        00CAPPOUCL              *
+0201082401070200834492V13990906        00000000000128440VALERA B.            HEMIL RAMON                                      00CAPPOUCL              *
+0201080219940100064007V14003086        00000000000053288CORDERO C.           GRABIEL ANGEL                                    00CAPPOUCL              *
+0201080219950100071739V14030527        00000000000004981MEDINA A.            MARYORICK Y.                                     00CAPPOUCL              *
+0201082457590200031751V14031045        00000000000145793SILVA PEREZ          JOSE ANT                                         00CAPPOUCL              *
+0201082457540100043574V14093727        00000000000129601GIMENEZ              JUAN CARLOS                                      00CAPPOUCL              *
+0201082457510100052441V14143188        00000000000055694ESCALONA O.  CARLOLUIS PAS                                            00CAPPOUCL              *
+0201082401030100249126V14159223        00000000000087130SUAREZ  ANA                                                           00CAPPOUCL              *
+0201082457550100108625V14176671        00000000000056322FERNANDEZ GOYO ADALBERTO JOSE                                         00CAPPOUCL              *
+0201082432010200101621V14270811        00000000000080232PERDOMO L.           MIRLA Y.                                         00CAPPOUCL              *
+0201080219960100071747V14293118        00000000000114279SIRA                 CARLOS LUIS                                      00CAPPOUCL              *
+0201080908830100029029V14335445        00000000000101465RODRIGUEZ A.         YOVANNY J.                                       00CAPPOUCL              *
+0201082433840100090342V14335539        00000000000043367SALAS R.             DIVER E.                                         00CAPPOUCL              *
+0201082457550200139404V14372299        00000000000039671ABARCA L.            ERICK MANUEL                                     00CAPPOUCL              *
+0201082457570100115427V14372545        00000000000018227ESCALONA AGUERO MARLYN ERNESTINA                                      00CAPPOUCL              *
+0201082457510200035250V14372818        00000000000143987LINAREZ A.           CARMELO A                                        00CAPPOUCL              *
+0201082401040200653080V14398946        00000000000004981RODRIGUEZ C.         RAMON E.                                         00CAPPOUCL              *
+0201080908840100029037V14399267        00000000000039564SANCHEZ R.           RUBEN E.                                         00CAPPOUCL              *
+0201082457590200032219V14405196        00000000000061359BELLO PEROZO         JOSE MIGUEL                                      00CAPPOUCL              *
+0201082401080200532062V14405401        00000000000037130RIVERO P.            EBER D.                                          00CAPPOUCL              *
+0201082457540100060584V14513487        00000000000118771SANCHEZ S.           ERIKA DEL CARM                                   00CAPPOUCL              *
+0201080061770200788934V14590375        00000000000042476ALVAREZ O.           ANGEL D.                                         00CAPPOUCL              *
+0201080501550200241073V14648947        00000000000073751VASQUEZ S.           KELVIS A.                                        00CAPPOUCL              *
+0201082416820100148674V14649126        00000000000010722MARTINEZ DE DUNO  DALIA C.                                            00CAPPOUCL              *
+0201082405240200217134V14877620        00000000000075991MENDOZA T.           IGNACIO A                                        00CAPPOUCL              *
+0201082457530200105240V14877805        00000000000046104ANTIQUE B.           JOSE NICOLAS                                     00CAPPOUCL              *
+0201082457520200059109V14877859        00000000000037130MENDOZA TUA          CARLOS LUIS                                      00CAPPOUCL              *
+0201082413370100217297V14879597        00000000000035382GARFIS ABARCA SINECIO VALENTIN                                        00CAPPOUCL              *
+0201082457580100069816V14879704        00000000000143269LINAREZ C.           YUCEX P.                                         00CAPPOUCL              *
+0201082457510200127899V14880827        00000000000060257TOLEDO A.            RODOLFO H.                                       00CAPPOUCL              *
+0201082457570100112754V14880972        00000000000058467CAMACARO GOMEZ ALIRFE FERNANDO                                        00CAPPOUCL              *
+0201082457560200141239V15177340        00000000000033517COLMENAREZ A.        YOVANNY JOSE                                     00CAPPOUCL              *
+0201082416880100077777V15177867        00000000000074822FLORES ALVARADO      RAFAEL S.                                        00CAPPOUCL              *
+0201082457550200095601V15306996        00000000000015075HERNANDEZ C.         EDUARDO G.                                       00CAPPOUCL              *
+0201082434660200069885V15352095        00000000000025243GARRIDO C            ORLANDO J                                        00CAPPOUCL              *
+0201082401020200442950V15444190        00000000000058511LOPEZ FIGUEROA ANGELICA MARIA                                         00CAPPOUCL              *
+0201082401070200355330V15448608        00000000000025991GALINDEZ S.          JEAN CARLOS                                      00CAPPOUCL              *
+0201082457510100069336V15597541        00000000000057502SOTO PEREZ           DEXI RAFAELA                                     00CAPPOUCL              *
+0201082457510200144971V15598043        00000000000048723BRITO M.             BELKIS Z.                                        00CAPPOUCL              *
+0201080087110100127304V15598319        00000000000064726BRACHO A.            CARLOS E.                                        00CAPPOUCL              *
+0201080119290100151119V15598510        00000000000119667RODRIGUEZ            PASTOR FRANCISCO                                 00CAPPOUCL              *
+0201082401090100238221V15598933        00000000000092888MARQUEZ L.           MARCOS  G                                        00CAPPOUCL              *
+0201080219970100071755V15599928        00000000000019483HUGGINS SANCHEZ      JHON ALBE                                        00CAPPOUCL              *
+0201082428170200187664V15668151        00000000000123081VIRGUEZ U.           PAUCIDES A                                       00CAPPOUCL              *
+0201082457570100039496V15668851        00000000000117029URETA DE LA HOZ      JORGE VIC                                        00CAPPOUCL              *
+0201082457590200032642V15729233        00000000000173592GARCES C.            WILLIAM J.                                       00CAPPOUCL              *
+0201082457510200055529V15729536        00000000000174771VALECILLO G.         GIANCARLOS                                       00CAPPOUCL              *
+0201080219990200228244V15778630        00000000000067888QUERALES R.  ANTONI ALEXANDER                                         00CAPPOUCL              *
+0201080501560200251044V15885754        00000000000090370GARRIDO  YANNA DEIDRE                                                 00CAPPOUCL              *
+0201082407950100059931V15959808        00000000000087130ALVAREZ              HAYRLEN COROMOTO                                 00CAPPOUCL              *
+0201080119290100179390V15961650        00000000000206403GUEDEZ GIMENEZ MARIANA KATIHUZCA                                      00CAPPOUCL              *
+0201080526160100039621V16001576        00000000000051503SIRA E.              WILMER O.                                        00CAPPOUCL              *
+0201082457500100037396V16137706        00000000000098490VASQUEZ U.           EDIXON J.                                        00CAPPOUCL              *
+0201080219970100060397V16138119        00000000000174212PEÑA E.              MIRIANYELA KARELI                                00CAPPOUCL              *
+0201082457510100115389V16385667        00000000000057075ALVAREZ ORTIZ  MIGUEL ANGEL                                           00CAPPOUCL              *
+0201080087190100227341V16387437        00000000000053610LINAREZ ESCALONA LUIS JAVIER                                          00CAPPOUCL              *
+0201082457510200142774V16594051        00000000000063260ARRIETA R.           FRANCINIS E.                                     00CAPPOUCL              *
+0201082416820200238646V16641426        00000000000025387PIÑA A.              JOSE F.                                          00CAPPOUCL              *
+0201082439710200154871V16736267        00000000000015075BASTIDAS A.          JONAS E.                                         00CAPPOUCL              *
+0201082457510200129328V16770549        00000000000025991CARRASCO R           TONDIS MIGUEL                                    00CAPPOUCL              *
+0201080119210200391850V16788972        00000000000042888TORO  DARWIN JOSE                                                     00CAPPOUCL              *
+0201082407910200329529V16796439        00000000000074660MEDINA PEREZ YHONNIS ALEXANDER                                        00CAPPOUCL              *
+0201080219950100156807V16796669        00000000000034386MOLLEJA CORONADO GLADYS VANESSA                                       00CAPPOUCL              *
+0201080119220100206827V17011869        00000000000055683LINAREZ U.           RONALD N.                                        00CAPPOUCL              *
+0201080501590100125467V17012587        00000000000098520PEREZ C.  JUAN JOSE                                                   00CAPPOUCL              *
+0201082457530100109419V17033230        00000000000105155QUINTERO  MARIA GABRIELA                                              00CAPPOUCL              *
+0201082405210100089023V17033256        00000000000127584CABALLERO G.  MIREYA C.                                               00CAPPOUCL              *
+0201082457510100123144V17104709        00000000000064968BARRIOS BASTIDAS  PATRICIA YELITZA                                    00CAPPOUCL              *
+0201082407980100115629V17306742        00000000000038835MARQUEZ CAMACARO WILMER JAVIER                                        00CAPPOUCL              *
+0201082457570100060509V17379215        00000000000087327YEPEZ R.             OSCAR E.                                         00CAPPOUCL              *
+0201082413310200351292V17380736        00000000000084310ESCALONA MONTILLA YENNY BEATRIZ                                       00CAPPOUCL              *
+0201082413310100161925V17572385        00000000000126642GIMENEZ SALAZAR JORGE ALBERTO                                         00CAPPOUCL              *
+0201082407910100126698V17574055        00000000000157270SIVIRA YEPEZ YOHANNA CAROLINA                                         00CAPPOUCL              *
+0201082457590100060606V17626132        00000000000079349MARQUEZ P.           CARLOS E.                                        00CAPPOUCL              *
+0201082439710200142016V17727473        00000000000086408SUAREZ PEROZO DIXON RAMON                                             00CAPPOUCL              *
+0201082407980100122757V17859806        00000000000108467PEROZO DIONELA EGLEE                                                  00CAPPOUCL              *
+0201082432010100117563V17859921        00000000000101358SANCHEZ SEGOBIA ROSA VIRGINIA                                         00CAPPOUCL              *
+0201082439760200157765V17872590        00000000000060204GOYO COLMENARES  ALFONSO FILDE                                        00CAPPOUCL              *
+0201082420610200184831V17965237        00000000000037130RAMIREZ LAGUNA       JEAN CARLO                                       00CAPPOUCL              *
+0201082407910100115653V18058393        00000000000019300BRACHO S DUGLAS E.                                                    00CAPPOUCL              *
+0201082456760200187187V18059918        00000000000080341PIÑA R.              ELI SAUL                                         00CAPPOUCL              *
+0201082407960100115602V18263579        00000000000071286PAEZ RIVERO  LUIS ALBERTO                                             00CAPPOUCL              *
+0201082413320100053979V18263756        00000000000144115SUAREZ A.            LUIS A.                                          00CAPPOUCL              *
+0201082416810100225075V18421508        00000000000017155CASTILLO ALVAREZ HONORYS RAIRIMAR                                     00CAPPOUCL              *
+0201082405270100147112V18422439        00000000000072388RIVERO RODRIGUEZ JUVER JOSE                                           00CAPPOUCL              *
+0201082413370100154864V18618969        00000000000092477GARCIA DUGARTE YACENI                                                 00CAPPOUCL              *
+0201082432090100111344V18655916        00000000000058467HERNANDEZ PERAZA FRANBER JOHAN                                        00CAPPOUCL              *
+0201080219990100071771V18656459        00000000000076471PEREZ R.             JOSE GREGORIO                                    00CAPPOUCL              *
+0201080219910100071798V18785684        00000000000121346ALVAREZ              NINOSKA CAROLINA                                 00CAPPOUCL              *
+0201080155980100020746V18928116        00000000000040454GONZALEZ  AURENIS JOSE                                                00CAPPOUCL              *
+0201080087110200568928V18950730        00000000000015075MOLLEJA C.           IZAMAR ANTONIE                                   00CAPPOUCL              *
+0201082457540200129352V19262723        00000000000076425MORENO CASTILLO      JOSE ANGEL                                       00CAPPOUCL              *
+0201082407970200348027V19324610        00000000000072588OROZCO C.  HECTOR A.                                                  00CAPPOUCL              *
+0201080219950100080991V19348247        00000000000020227SUAREZ HERNANDEZ ERIMAR ROSANNY                                       00CAPPOUCL              *
+0201082457570100122636V19436769        00000000000038431PEÑA ESCALONA LEIDIS JOSE                                             00CAPPOUCL              *
+0201082407990100115394V19827450        00000000000058658BRACHO ARRIECHI  CRISTIAN                                             00CAPPOUCL              *
+0201082407990100102497V19850185        00000000000041473GIL YUSTIZ           DARWIN JOSE                                      00CAPPOUCL              *
+0201082456710100146890V19886649        00000000000016190SANCHEZ RUBIO JOSE ANTONIO                                            00CAPPOUCL              *
+0201082407920100115599V19973112        00000000000036240PEROZA MOTA  DIEGO ARMANDO                                            00CAPPOUCL              *
+0201082434690100044834V20046577        00000000000086026BELLO CALANCHE CRISTIAN REINALDO                                      00CAPPOUCL              *
+0201082434600100044842V20046584        00000000000077770BELLO CALANCHE KENDER JESUS                                           00CAPPOUCL              *
+0201080908850100072641V20187870        00000000000120554ACOSTA T.  LOUISMAR K.                                                00CAPPOUCL              *
+0201080501570100125440V20189202        00000000000136576HERNANDEZ R.  KEVIN A.                                                00CAPPOUCL              *
+0201080501510100099555V20235584        00000000000056446PINEDA P.            JOSE A.                                          00CAPPOUCL              *
+0201080501550100099598V20348834        00000000000065075COLMENAREZ  YENIRETH CAROL                                            00CAPPOUCL              *
+0201082457530100076731V20351464        00000000000103157MENDOZA A.  DIOSBAKERTH JO                                            00CAPPOUCL              *
+0201082413370200350946V21140944        00000000000107640GARCIA R.  YOHAN ALBERTO                                              00CAPPOUCL              *
+0201082457500100095167V22326349        00000000000037130PEÑA ROJA YHOYMAR ANDREINA                                            00CAPPOUCL              *
+0201082457530200000147V23156662        00000000000137261RUIZ RICO            RAFAEL REGINO                                    00CAPPOUCL              *

@@ -1,0 +1,179 @@
+<html> 
+<head> 
+  <title>prueba fecha </title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+  <style type="text/css">
+    body {padding-top:20px;}
+  </style>
+<!--
+      <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" media="all" href="../daterangepicker.css" />
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../moment.js"></script>
+      <script type="text/javascript" src="../daterangepicker.js"></script>
+
+   <style type="text/css">
+      .demo { position: relative; }
+      .demo i {
+        position: absolute; bottom: 10px; right: 24px; top: auto; cursor: pointer;
+      }
+      </style>
+  -->
+
+</head> 
+<body> 
+  <!--INICIO -->
+<div class="container">
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Datetimepicker Bootstrap</legend>
+                  <div class='input-group date' id='divMiCalendario'>
+                      <input type='text' id="txtFecha" class="form-control"  readonly/>
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                  </div>
+
+                  <div class='input-group date' id='divMiCalendarioRango'>
+                      <input type='text' id="txtFechaRango" class="form-control"  readonly/>
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                  </div>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+
+<div class="container">
+    <div class='col-md-5'>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker6'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-5'>
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker7'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  <!--FIN -->
+<!--
+   <script src="js/bootstrap-datetimepicker.es.js"></script>
+
+-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="js/moment.min.js"></script>
+   <script src="js/bootstrap-datetimepicker.min.js"></script>
+   <script src="js/bootstrap-datetimepicker.es.js"></script>
+   <script type="text/javascript">
+     $('#divMiCalendario').datetimepicker({
+          // format: 'YYYY-MM-DD HH:mm'       
+//            language: "en-GB",
+          format: 'YYYY-MM-DD',
+          locale: 'es',
+            // format mes dia año
+            defaultDate: "10/16/2016",
+            "startDate": "10/11/2016",
+            "endDate": "10/17/2016",
+            // "singleDatePicker": true, 
+             "autoUpdateInput": true,
+              "showWeekNumbers": true,
+             "autoApply": true,
+             "autoclose": true,
+             "showDropdowns": true
+
+             /*
+            disabledDates: [
+//               "10/01/2016",
+                new Date(2016, 11 - 1, 31),
+//                "10/22/2016"
+            ]
+*/
+            /*
+            disabledDates: [
+               moment("12/25/2016"),
+                new Date(2016, 11 - 1, 21),
+                "09/22/2016"
+            ]
+            */
+      });
+      </script>
+
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker6').datetimepicker();
+        $('#datetimepicker7').datetimepicker({
+            useCurrent: false //Important! See issue #1075
+        });
+        $("#datetimepicker6").on("dp.change", function (e) {
+            alert('1');
+            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+        });
+        $("#datetimepicker7").on("dp.change", function (e) {
+            alert('2');
+            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+</script>
+
+
+   </script>
+</body>
+</html>
+
+http://eonasdan.github.io/bootstrap-datetimepicker/ <br>
+
+http://eonasdan.github.io/bootstrap-datetimepicker/Options/ <br>
+
+http://cappobck/xcajaweb/login/fechas/demo <br>
+
+<!--
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $('#fecha').datepicker(
+);
+        });
+    </script>
+ </head>
+ 
+<body>
+<div id="sandbox-container">        
+    <div class="input-daterange input-group" id="datepicker">
+	      <input type="text" id="fecha" name="fecha" />
+        <input type="text" class="input-sm form-control" name="start" />
+        <span class="input-group-addon">to</span>
+        <input type="text" class="input-sm form-control" name="end" />
+    </div>
+</div>
+
+</body>
+
+-->

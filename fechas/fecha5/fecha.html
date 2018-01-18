@@ -1,0 +1,64 @@
+<html> 
+<head> 
+  <title>prueba fecha </title> 
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="js/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="css/daterangepicker.css" />
+</head>
+<body>
+<input type="text" name="daterange" value="01/01/2015 - 01/31/2015" /><br>
+
+
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker(
+    {
+        locale: {
+      		format: 'YYYY-MM-DD'
+      		// format: 'DD-MM-YYYY'
+    	},
+    	startDate: '2016-10-15',
+		endDate: '2016-10-20',
+		"minDate": "2016-10-01",
+    	"maxDate": "2016-10-31" 
+    }
+   	);
+});
+</script>
+
+<input type="text" name="birthdate" value="10/24/1984" />
+ 
+<script type="text/javascript">
+$(function() {
+/*
+    $('input[name="birthdate"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true
+    }, 
+    function(start, end, label) {
+        var years = moment().diff(start, 'years');
+        alert("You are " + years + " years old.");
+    });
+});
+*/
+$('input[name="birthdate"]').daterangepicker({
+    "singleDatePicker": true,
+    "startDate": "10/13/2016",
+    "endDate": "10/19/2016",
+    "minDate": "10/01/2016",
+    "maxDate": "10/31/2016"
+}, function(start, end, label) {
+  console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
+});
+});
+</script>
+
+<br>
+http://www.daterangepicker.com/#config
+</body>
+</html>
