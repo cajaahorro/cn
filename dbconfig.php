@@ -1,8 +1,6 @@
 <?php
-
-
 	$db_host = "localhost";
-	$db_name = "sica";
+	$db_name = "sicav2";
 	$db_user = "jhernandez";
 	$db_pass = "nene14";
 //require("../final.php");
