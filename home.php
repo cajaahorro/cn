@@ -152,9 +152,24 @@ $row=$stmt->fetch(PDO::FETCH_ASSOC);
 		// echo 'Algo ha fallado!';
 	}
 }
+		if (!isset($_SESSION['saludo']))
+			$_SESSION['saludo']=1;
+		if ($_SESSION['saludo'] == 1)
+		{
+	?>
+	<div class="container">
+	    <div class='alert alert-success'>
+			<button class='close' data-dismiss='alert'>&times;</button>
+				<strong>Bienvenido <?php echo $_SESSION['user_session']; ?></strong>.
+	    </div> 
+	</div>
+	<?php
+			$_SESSION['saludo']=2;
+		}
+
 ?>
 
-<div class="body-container">
+<!-- div class="body-container">
   <div class="container">
     <div class='alert alert-success'>
 		  <button class='close' data-dismiss='alert'>&times;</button>
@@ -164,7 +179,7 @@ $row=$stmt->fetch(PDO::FETCH_ASSOC);
 <div class="container">
 
     </div>
-</div>
+</div-->
 
 </div>
 </div>

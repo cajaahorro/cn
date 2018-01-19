@@ -137,7 +137,7 @@ if (!$accion)
 if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on')) 
 {
 	echo '<div class="row">';
-		echo '<div class="col-md-4">';
+		echo '<div class="col-md-4" align="center">';
 			echo 'Proceso Interno <div id="progress-txt" class="progress  progress-bar-success">';
 				// echo '<div id="progress-bs" class="progress-bar" role="progressbar" style="width:30%; min-width:10%">';
 				echo '<div class="progress-bar" role="progressbar" style="width:30%">';
@@ -147,6 +147,8 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 			echo '</div>';
 		echo '</div>';
 	echo '</div>';
+	echo '<div class="row">';
+		echo '<div class="col-md-6" align="center">';
 	$todobien=true;
 	$registros_socios=0;
 
@@ -262,7 +264,7 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 
 			} // ($r200 = mysql_fetch_assoc($a_200))
 			echo '<input type="hidden" name="fechadescuento" value="'.$fechadescuento.'">';
-			mensaje(['tipo'=>'success','titulo'=>'Informaci&oacute;n preparada','texto'=>'<h2>Se ha generado el archivo '.$nombre_archivo.'<br> para su procesamiento a banco</h2>']);
+			mensaje(['tipo'=>'success','titulo'=>'Informaci&oacute;n preparada','texto'=>'<h2>Se ha generado el archivo <strong><br>'.$nombre_archivo.'<br></strong> para su procesamiento a banco</h2>']);
 /*
 			echo '<h2>Información Lista...</h2><br>';
 			echo '<h2>Se ha generado el archivo '.$nombre_archivo.'<br> para su procesamiento a banco</h2>';
@@ -287,6 +289,7 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 	}
 	echo 'La fecha final de hoy es: '. date("d/m/Y"). ' Hora local del servidor es: '. date("G:i:s").'<br>'; 
 	set_time_limit(30);
+	echo '</div></div>';
 }	// ($accion=='ListadoDeCuotas')
 
 if (($accion=='Abonar')) { // and ($nominasnormales == 'on')) {
