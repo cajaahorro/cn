@@ -1,3 +1,40 @@
+$('document').ready(function(){
+	$('#calculo').click(function(){
+		var montoprestamo = $('#monto_solicitado').val();
+		var montoespecial = 0; // $('#monto_especial').val();
+		var num_cuotas = $('#lascuotas').val();
+		// var num_cuotase = $('#lascuotase').val();
+		var p_interes = $('#interes').val();
+		var divisible = $('#factor_division').val();
+		var tipo_interes = $('#tipo_interes').val();
+		var f_ajax = $('#calculo').val();
+		var descontar_interes = $('#descontar_interes').val();
+		var monto_futuro = $('#monto_futuro').val();
+		jQuery.post("ajaxWork.php", {
+			montoprestamo:montoprestamo,
+			montoespecial:montoespecial,
+			num_cuotas:num_cuotas,
+		//	num_cuotase:num_cuotase,
+			p_interes:p_interes,
+			divisible:divisible,
+			tipo_interes:tipo_interes,
+			f_ajax:f_ajax,
+			cual : 1, 
+			descontar_interes:descontar_interes,
+			monto_futuro:monto_futuro
+		}, function(data, textStatus){
+			document.getElementById("cuota").value 				= data.getElementsByTagName("cuota")[0].childNodes[0].nodeValue;
+//			document.getElementById("cuotae").value 			= data.getElementsByTagName("cuotae")[0].childNodes[0].nodeValue;
+			document.getElementById("interes_diferido").value 	= data.getElementsByTagName("interes_diferido")[0].childNodes[0].nodeValue;
+			document.getElementById("montoneto").value 			= data.getElementsByTagName("montoneto")[0].childNodes[0].nodeValue;
+			document.getElementById("gastosadministrativos").value=data.getElementsByTagName("gastosadministrativos")[0].childNodes[0].nodeValue;
+			document.getElementById("resultado_js").value 		= data.getElementsByTagName("cuotae")[0].childNodes[0].nodeValue;
+//			document.getElementById("monto_normal").value 		= data.getElementsByTagName("diferencia")[0].childNodes[0].nodeValue;
+		});
+	});
+});
+
+
 var xmlhttp;
 // =false;
 
@@ -33,16 +70,7 @@ function ajax_call() {
 	xmlhttp.onreadystatechange=cambio;
 	xmlhttp.open("GET", linea, true);
 //----------
-/*
-//setup the headers
-    try {
-        xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xmlhttp.setRequestHeader("Accept", "text/xml, application/xml, text/plain");
-    } catch ( ex ) {
-        window.alert('error' + ex.toString());
-    }
 
-*/
 //----------
 	xmlhttp.send(null)
 //	return false;
@@ -97,14 +125,6 @@ function calcularcancelar() {
 //	alert('1');
 
 	var data = document.getElementsByName( "cancelar[]" );
-/*	if( data != null ){
-		for(j=0; j < data.length; j++){
-		// you have the data in the client for your array
-//			eval( alert( data[j].innerHTML ) ) ;
-			eval( alert( data[j].childNodes[0].nodeValue; ) ) ;
-        }
-      }
-*/
 // arreglo=document.getElementsByName("cancelar[]");
 	var linea='ajaxCalc.php?arreglo='+ GetInfoString();
 //		document.getElementById("data");
@@ -212,11 +232,6 @@ function calccanc() {
 	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
 	
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var totalregistros=0;
 	for(j=0; j < selIndex; j++){
 //			var valor='cancelar'+(j+1);
@@ -237,15 +252,7 @@ alert('la variable 1='+variable1);
         }
 //			alert(otralinea);
 
-	/*
-					(document.getElementById('monpre_sdp').value-document.getElementById('inicial').value) + 
-						'&num_cuotas=' + selIndex + 
-						'&p_interes=' + document.getElementById('interes_sd').value + 
-						'&divisible=' + document.getElementById('factor_division').value +
-						'&tipo_interes=' + document.getElementById('tipo_interes').value+
-						'&f_ajax=' + document.getElementById('calculo').value + 
-						'&cual=1';
-						*/
+
 	linea=linea+otralinea+'totalregistros='+totalregistros+'&micedula='+document.getElementById('micedula').value+'&montoprestamo=';
 	linea+=document.getElementById('montoprestamo').value;
 // 	alert(linea);
@@ -261,11 +268,6 @@ function ajax_call_zapatos() {
 		  alert ("Browser does not support HTTP Request");
 	  return;
 	  }
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var selIndex = document.getElementById('registros').value;
 //	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
@@ -328,11 +330,6 @@ function ajax_call_zapatosm() {
 		  alert ("Browser does not support HTTP Request");
 	  return;
 	  }
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var selIndex = document.getElementById('registros').value;
 //	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
@@ -352,14 +349,7 @@ alert('la variable 1='+variable1);
 // 	alert('sali');
 	if (pares < 12)
 		alert("Error tienen que ser un minimo de 12 unidades");
-/*
-	if (pares > 2) 
-	{
-		document.getElementById("cuotas").value= 2;
-		document.getElementById("monto").value= cuanto / 2;
-	}
-	else 
-*/
+
 	{
 		document.getElementById("cuotas").value= 1;
 		document.getElementById("monto").value= cuanto;
@@ -371,28 +361,6 @@ alert('la variable 1='+variable1);
 	xmlhttp.send(null)
 }
 
-/*
-function cambio_zapatos() {
-if (xmlhttp.readyState==4) {
-//			document.getElementById('cuota').value = xmlhttp.responseText;	// forma original para uno solo
-//			document.getElementById('interes_diferido').value = xmlhttp.responseText;
-
-//	alert('1');
-//	var xmlDoc=xmlhttp.responseXML.documentElement;
-//	alert('2');
-//	alert(xmlDoc);
-	// var 
-	xmlDoc=xmlhttp.responseXML;
-//	alert(xmlhttp.responseXML.getElementsByTagName('cuota')[0].childNodes[0].nodeValue);
-//	peticion.responseXML.getElementsByTagName("codigo" )[0];
-//	document.getElementById("cuota").value= xmlDoc.getElementsByTagName("cuota")[0].childNodes[0].nodeValue;
-	document.getElementById("totalprestamo").value= xmlDoc.getElementsByTagName("cuota")[0].childNodes[0].nodeValue;
-	document.getElementById("interes_diferido").value=xmlDoc.getElementsByTagName("interes_diferido")[0].childNodes[0].nodeValue;
-	document.getElementById("montoneto").value=xmlDoc.getElementsByTagName("montoneto")[0].childNodes[0].nodeValue;
-	document.getElementById("gastosadministrativos").value=xmlDoc.getElementsByTagName("gastosadministrativos")[0].childNodes[0].nodeValue;
-	}
-}
-*/
 ///////////////////////////
 function ajax_call_celulares() {
 	xmlhttp=GetXmlHttpObject();
@@ -401,11 +369,6 @@ function ajax_call_celulares() {
 		  alert ("Browser does not support HTTP Request");
 	  return;
 	  }
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var selIndex = document.getElementById('registros').value;
 //	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
@@ -469,11 +432,6 @@ function ajax_call_motos() {
 		  alert ("Browser does not support HTTP Request");
 	  return;
 	  }
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var selIndex = document.getElementById('registros').value;
 //	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
@@ -491,15 +449,6 @@ alert('la variable 1='+variable1);
 		var cuanto = cuanto + (parseFloat (precio) * parseInt (necesita));
 	}
 // 	alert('sali');
-/*
-	if (pares > 2) 
-	{
-		document.getElementById("cuotas").value= 2;
-		document.getElementById("monto").value= cuanto / 2;
-	}
-	else 
-	{
-*/
 		document.getElementById("cuotas").value= 52;
 //		document.getElementById("monto").value= cuanto;
 		document.getElementById("monto").value= cuanto / 52;
@@ -539,11 +488,6 @@ function ajax_call_viajes() {
 		  alert ("Browser does not support HTTP Request");
 	  return;
 	  }
-/*
-var indice = 1;
-eval("var variable" + indice + " = 'valor'");
-alert('la variable 1='+variable1);
-*/
 	var selIndex = document.getElementById('registros').value;
 //	var linea='ajaxCalc2.php?registros=' + selIndex+'&';
 	var otralinea='';
@@ -567,21 +511,6 @@ alert('la variable 1='+variable1);
 			var array_fecvia = fecvia.split("-") 
 //			alert(fecnac + "-" + fecvia);
 
-/*
-			var edad=array_fecvia[0] - array_fecnac[0] - 1; //-1 porque no se si ha cumplido años ya este año
-	
-		    //si resto los meses y me da menor que 0 entonces no ha cumplido años. Si da mayor si ha cumplido
-		    if (array_fecvia[1] + 1 - array_fecnac[1] < 0) //+ 1 porque los meses empiezan en 0
-		//       return edad
-		    if (array_fecvia[1] + 1 - array_fecnac[1]() > 0)
-				edad=edad+1
-
-		    //entonces es que eran iguales. miro los dias
-    		//si resto los dias y me da menor que 0 entonces no ha cumplido años. Si da mayor o igual si ha cumplido
-			if (array_fecvia[2] - array_fecnac[2] >= 0)
-			       edad=edad + 1
-			   
-*/
 			edad = calcular_edad(array_fecnac[2],array_fecnac[1],array_fecnac[0],array_fecvia[2],array_fecvia[1],array_fecvia[0]);
 			document.getElementById("edad"+(j)).value= edad;
 			var persona = 0;

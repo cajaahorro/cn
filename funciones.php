@@ -881,7 +881,7 @@ function cedad($fncido)
           $edad = $fdhoy[2] - $fpncido[2];
      }
 
-     return $edad . ' años ';
+     return $edad . ' a&ntilde;os ';
 }
 
 function dias_pasados($fechai, $fechaf)

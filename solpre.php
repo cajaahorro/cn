@@ -21,11 +21,6 @@ else
 <body <?php if (!$bloqueo) {echo $onload;}?>>
 
 <?php
-/*
-$readonly=" readonly='readonly'";
-include("arriba.php");
-$menu61=1;include("menusizda.php");
-*/
 $cedula = $_POST['cedula'];
 $ip = $_SERVER['HTTP_CLIENT_IP'];
 if (!$ip) {$ip = $_SERVER['REMOTE_ADDR'];}
@@ -78,7 +73,6 @@ if ($accion == "Renovacion") {	// selecciono el tipo de prestamo
 	echo '</form>';
 	echo '</div>';
 }	// fin de ($accion == "Renovacion")
-
 //----------------------------
 if ($accion == 'Buscar')  {
 	extract($_POST);
@@ -114,7 +108,6 @@ if ($accion == 'Buscar')  {
 		$cedula=$row['ced_prof'];
 		$tsemanal=0;
 		$accion = 'Editar'; 
-
 		$conta = $_GET['conta'];
 		if (!$_GET['conta']) 
 			$conta = 1;
@@ -149,10 +142,12 @@ if ($accion == 'Buscar')  {
 			// echo 'Fallo la conexion';
 		}
 //		echo "<table class='basica 100 hover' width='700'><tr>";
-		echo "<table class='table table-bordered' width='700'><tr>";
+//		echo "<table class='table table-bordered' width='700'><tr>";
+		echo '<fieldset><legend>Informaci&oacute;n de Pr&eacute;stamos Actuales </legend></fieldset>';
+		echo '<table class="table table-striped table-bordered table-hover" id="dataTables-example">';
 		echo '<th colspan="5"></th><th width="80">Otorgado</th><th width="80">Descontar</th><th width="80">Nro.Prestamo</th><th width="280">Tipo</th><th width="100">Monto</th><th width="100">Saldo</th><th width="80">Cuota</th><th width="80">NC / CC</th></tr>';
 // <th width="80">Fecha</th>
-		if (pagina($numasi, $conta, 20, "Prestamos Activos", $ord)) {$fin = 1;}
+//		if (pagina($numasi, $conta, 20, "Prestamos Activos", $ord)) {$fin = 1;}
 // 		bucle de listado
 		while($row=$rs->fetch(PDO::FETCH_ASSOC)) {
 			echo "<tr>";
@@ -268,7 +263,7 @@ if (($accion == "Editar") or ($accion=="Renovar")) {	// muestra datos para prest
 	$temp = "";
 
 	echo "<form enctype='multipart/form-data' action='solpre.php?accion=EscogePrestamo' name='form1' method='post' onsubmit='return valsoc(form1)'>";
-	pantalla_prestamo($result,$cedula, $db_con);
+	pantalla_prestamo($result, $cedula, $db_con);
 	echo "<input type = 'hidden' value ='".$cedula."' name='cedula'>";
 	$elstatus=$_SESSION['elstatus'];
 	echo '<fieldset><legend>Informaci&oacute;n Para Pr&eacute;stamo </legend>';
@@ -433,7 +428,6 @@ if (($accion == "Editar") or ($accion=="Renovar")) {	// muestra datos para prest
 	echo '</div>';
 	echo '</div>';
 } 	// fin de ($accion == "Editar")
-
 if ($accion == "EscogePrestamo")  {	// selecciono el tipo de prestamo
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -674,7 +668,6 @@ if ($accion == "Solicitar") {	// aprobar
 	/// *****imprimri en otro momento, faltan los fiadores*****
 } // fin de ($accion == "Solicitar")
 
-/*
 if ($accion == "ReAjustar") {	//  para aquellos que solo aumentan el monto y varian la cuota
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -718,6 +711,7 @@ if ($accion == "ReAjustar") {	//  para aquellos que solo aumentan el monto y var
 //**********************
 	echo '</div>';
 }	// fin de ($accion == "ReAjustar")
+
 if ($accion == "Reajuste") {	//  para aquellos que solo aumentan el monto y varian la cuota
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -835,8 +829,6 @@ if ($accion == "ModificaCuota") {	//  para aquellos que solo aumentan el monto y
 	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
 	echo '</div>';
 }	// fin de ($accion == "ModificaCuota")
-
-
 
 if ($accion == "Restar") {	// restar prestamos cuando va a cancelarlos
 // phpinfo();
@@ -1020,7 +1012,6 @@ if ($accion == "Restar") {	// restar prestamos cuando va a cancelarlos
 //	die('restar otros'.$r_360['restar_otros']);
 } 	// ($accion == "Restar")
 
-
 if ($accion == "CancelarPrestamo") {	//  para cancelar prestamos
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -1086,6 +1077,7 @@ if ($accion == "CancelarPrestamo") {	//  para cancelar prestamos
 //**********************
 	echo '</div>';
 }	// fin de ($accion == "CancelarPrestamo")
+
 if ($accion == "CancelaPrestamo") {	//  para aquellos que solo aumentan el monto y varian la cuota
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -1122,7 +1114,6 @@ if ($accion == "CancelaPrestamo") {	//  para aquellos que solo aumentan el monto
 	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
 	echo '</div>';
 }	// fin de ($accion == "CancelaPrestamo")
-
 
 if ($accion == "NetoDepositar") {	//  para modificar neto a depositar de los prestamos
 	$mostrarregresar=1;
@@ -1167,6 +1158,8 @@ if ($accion == "NetoDepositar") {	//  para modificar neto a depositar de los pre
 //**********************
 	echo '</div>';
 }	// fin de ($accion == "NetoDepositar")
+
+/*
 if ($accion == "NetoDeposito") {	//  para aquellos que solo aumentan el monto y varian la cuota
 	$mostrarregresar=1;
 	echo '<div id="div1">';
@@ -1204,21 +1197,19 @@ if ($accion == "NetoDeposito") {	//  para aquellos que solo aumentan el monto y 
 	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
 	echo '</div>';
 }	// fin de ($accion == "NetoDeposito")
-
-
-
-
 if ($accion == "Concretar") {	// hacer los asientos y actualizar el prestamo, faltarian los fiadores
 	$mostrarregresar=1;
 	extract($_POST);
-	$cedula = $_POST['cedula'];
-	$sql_200="select * from ".$_SESSION['institucion']."sgcaf200 where ced_prof='$cedula'";
-	$a_200=mysql_query($sql_200);
-	$r_200=mysql_fetch_assoc($a_200);
+/*	$cedula = $_POST['cedula'];
+	$sql_200="select * from ".$_SESSION['institucion']."sgcaf200 where ced_prof=:cedula";
+	$a_200=$db_con->prepare($sql_200);
+	$a_200->execute(array(":cedula"=>$cedula));
+	$r_200=$a_200->fetch(PDO::FETCH_ASSOC);
 	$elnumero = $_SESSION['elnumero'];
 	$elprestamo = $_SESSION['elprestamo'];
 	echo 'el prestamo ' .$elprestamo;
 	echo 'el numero '.$elnumero;
+/*
 	$referencia=$elnumero;
 	$montoprestamo = $_SESSION['montoprestamo'];
 	$micedula=substr($cedula,0,4).'.'.substr($cedula,4,3).'.'.substr($cedula,7,4);
@@ -1478,6 +1469,7 @@ if ($mostrarregresar==1) { // ($accion == "Buscar") or ($accion == "Ver") or ($a
 }
 else 
 	include("pie.php");
+	*/
 ?>
 </body></html>
 
@@ -1553,14 +1545,13 @@ function solicitar_fiadores($elnumero,$lacedula)
 
 //---------------------
 //---------------------
-*/
 function buscar_saldo_f810($cuenta, $asiento, $con)
 {
 	$sql_f810="select cue_saldo from ".$_SESSION['institucion']."sgcaf810 where cue_codigo=:cuenta";
 //	echo $sql_f810;
 	$lacuentas=$con->prepare($sql_f810); //  or die ("<p />El usuario $usuario no pudo conseguir el saldo contable<br>".mysql_error()."<br>".$sql);
-	$lacuentas->execute(":cuenta"=>$cuenta);
-	$lacuentas=$lacuentas->fetch(PDO::FETCH_ASSOC));
+	$lacuentas->execute(array(":cuenta"=>$cuenta));
+	$lacuentas=$lacuentas->fetch(PDO::FETCH_ASSOC);
 	$saldoinicial=$lacuenta['cue_saldo'];
 //	echo 'el asiento '.$asiento.'<br>';
 	$sql_f820="select com_monto1, com_monto2 from ".$_SESSION['institucion']."sgcaf820 where com_cuenta=:cuenta";
@@ -1571,7 +1562,7 @@ function buscar_saldo_f810($cuenta, $asiento, $con)
 	$sql_f820.=" order by com_fecha";
 //	echo $sql_f820.'<br>';
 	$lacuentas=$con->prepare($sql_f820); //  or die ("<p />El usuario $usuario no pudo conseguir los movimientos contables<br>".mysql_error()."<br>".$sql);
-	$lacuentas->execute(":cuenta"=>$cuenta);
+	$lacuentas->execute(array(":cuenta"=>$cuenta));
 
 	while($lascuenta=$lacuentas->fetch(PDO::FETCH_ASSOC)) {
 		$saldoinicial+=$lascuenta['com_monto1'];
@@ -1638,10 +1629,6 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	}
 	$r_310=$a_310->fetch(PDO::FETCH_ASSOC);
 	echo '<div class="col-md-12">';
-/*
-	echo '<fieldset><legend>'.trim($r_360['descr_pres']). ' / '.trim($r_200['ape_prof']). ', '.trim($r_200['nombr_prof']).' / ';
-	echo $r_200['ced_prof'].' / '.$r_200['cod_prof'].' / '.$elnumero;
-*/
 	mensaje(array(
 		"tipo"=>'info',
 		"texto"=>trim($r_360['descr_pres']). ' / '.trim($r_200['ape_prof']). ', '.trim($r_200['nombr_prof']).' / '.$r_200['ced_prof'].' / '.$r_200['cod_prof'].' / '.$elnumero,
@@ -1651,6 +1638,13 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	echo '</legend>';
 	echo '<table class="table table-bordered" width="500" border="1">';
 	echo '<tr>';
+
+	$inspeccion = 0;
+	if ($inspeccion == 1)
+		echo '<input type="text" id="resultado_js">'; // valor para inspeccion
+	else 
+		echo '<input type="hidden" id="resultado_js">'; // valor para inspeccion
+
     echo '<td width="100"> <label>Tasa de Interes </label></td><td width="100" align="right">'.number_format($r_360['i_max_pres'],$deci,$sep_decimal,$sep_miles).'%</td>';
 	echo "<input type = 'hidden' value ='".$r_360['i_max_pres']."' name='interes_sd' id='interes_sd'>";
 	echo "<input type = 'hidden' value ='".$r_360['tipo_interes']."' name='tipo_interes' id='tipo_interes'>";
@@ -1828,100 +1822,98 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 }
 
 
-//----------------------------------------------
+//--------------------------------------------
 function pantalla_prestamo($result,$cedula, $db_con)
 {
-	$deci=$_SESSION['deci'];
-	$sep_decimal=$_SESSION['sep_decimal'];
-	$sep_miles=$_SESSION['sep_miles'];
-	$fila = $result->fetch(PDO::FETCH_ASSOC);
-	echo "<input type = 'hidden' value ='".$fila['ced_prof']."' name='cedula'>";
-	if ($accion == 'Editar') { $lectura = 'readonly = "readonly"'; $activada="disabled" ; } else {$lectura=''; $activada='';}
-	if ($accion == 'Anadir') {
-		$elcodigo=nuevo_codigo(); 
-		$ingreso=date("d/m/Y", time());
-		}
-	else  $elcodigo=$fila['cod_prof'];
-	$lectura = 'readonly = "readonly"'; $activada="disabled" ; 
+	try
+	{
+		$deci=$_SESSION['deci'];
+		$sep_decimal=$_SESSION['sep_decimal'];
+		$sep_miles=$_SESSION['sep_miles'];
+		$fila = $result->fetch(PDO::FETCH_ASSOC);
+		echo "<input type = 'hidden' value ='".$fila['ced_prof']."' name='cedula'>";
+		if ($accion == 'Editar') { $lectura = 'readonly = "readonly"'; $activada="disabled" ; } else {$lectura=''; $activada='';}
+		if ($accion == 'Anadir') {
+			$elcodigo=nuevo_codigo(); 
+			$ingreso=date("d/m/Y", time());
+			}
+		else  $elcodigo=$fila['cod_prof'];
+		$lectura = 'readonly = "readonly"'; $activada="disabled" ; 
 //	<form id="form1" name="form1" method="post" action="">
 ?>
-  <label><fieldset><legend>Informaci&oacute;n Personal </legend>
-  <table class='table table-bordered' width="639" border="1">
-    <tr>
-		<td colspan="1" width="100" >C&oacute;digo </td>
- 		<td colspan="1" width="130">C&eacute;dula </td>
-		<td colspan="2" width="127">Socio </td>
-		<td colspan="1" width="127" scope="col">Ingreso </td>
-		<td colspan="1" width="127" scope="col">Ing. UCLA </td>
-		<td colspan="1" width="127" scope="col">Tiempo UCLA</td>
-		<td>Estatus</td>
-	    <td align="center" colspan="1" class="<?php echo ($disponible<=0)?'rojo':'azul' ?>" >Disponibilidad Neta</td>
-	</tr>
-
-    <tr>
-		<td><?php echo '<strong>'.$elcodigo.'</strong>'; ?></td>
- 		<td><?php echo '<strong>'.$fila['ced_prof'].'</strong>';?></td>
-		<td colspan="2" ><?php echo '<strong>'.$fila['ape_prof'].' '.$fila['nombr_prof'] .'</strong>'?></td>
-		<td><strong><?php echo convertir_fechadmy($fila['f_ing_capu']) ?></strong></td>
-		<td><strong><?php echo convertir_fechadmy($fila['f_ing_ucla']) ?> </strong></td>
-		<td><strong><?php echo cedad(convertir_fechadmy($fila['f_ing_ucla'])) ?> </strong></td>
-		<td><strong><?php echo $fila['statu_prof'] ?></strong></td>
-	    <td>
+		<label><fieldset><legend>Informaci&oacute;n Personal </legend>
+	  	<table class='table table-bordered' width="639" border="1">
+	    	<tr>
+				<td colspan="1" width="100" >C&oacute;digo </td>
+		 		<td colspan="1" width="130">C&eacute;dula </td>
+				<td colspan="2" width="127">Socio </td>
+				<td colspan="1" width="127" scope="col">Ingreso </td>
+				<td colspan="1" width="127" scope="col">Ing. UCLA </td>
+				<td colspan="1" width="127" scope="col">Tiempo UCLA</td>
+				<td>Estatus</td>
+			    <td align="center" colspan="1" class="<?php echo ($disponible<=0)?'rojo':'azul' ?>" >Disponibilidad Neta</td>
+			</tr>
+		    <tr>
+				<td><?php echo '<strong>'.$elcodigo.'</strong>'; ?></td>
+		 		<td><?php echo '<strong>'.$fila['ced_prof'].'</strong>';?></td>
+				<td colspan="2" ><?php echo '<strong>'.$fila['ape_prof'].' '.$fila['nombr_prof'] .'</strong>'?></td>
+				<td><strong><?php echo convertir_fechadmy($fila['f_ing_capu']) ?></strong></td>
+				<td><strong><?php echo convertir_fechadmy($fila['f_ing_ucla']) ?> </strong></td>
+				<td><strong><?php echo cedad(convertir_fechadmy($fila['f_ing_ucla'])) ?> </strong></td>
+				<td><strong><?php echo $fila['statu_prof'] ?></strong></td>
+			    <td>
 		<?php 
-			$ahorros=ahorros($cedula, $db_con);
-			$afectan=afectan($cedula, $db_con);
-			$noafectan=noafectan($cedula, $db_con);
-			$sql='select * from '.$_SESSION['institucion'].'sgcaf200 where ced_prof=:cedula';
-			try
-			{
-				$result=$db_con->prepare($sql);
-				$result->execute(array(
-					":cedula"=>$cedula,
-					));
-			}
-			catch(PDOException $e){
-				echo $e->getMessage();
-				// echo 'Fallo la conexion';
-			}
-			$fila = $result->fetch(PDO::FETCH_ASSOC);
-			$fianzas=fianzas($fila['cod_prof'], $db_con);
-//			$disponible=($totalahorros-$reserva)-($afectan+$fianzas);
-			$disponible=disponibilidad($ahorros,$afectan,$noafectan,$fianzas, $db_con); 
-			echo '<strong>';
-	  		if ($disponible<=0)
-				{
-					$imagen='24-em-cross.png';
-					$cuento_mostrar='Disponibilidad Negativa';
-					$cuento_interno='disp_neg';
+				$ahorros=ahorros($cedula, $db_con);
+				$afectan=afectan($cedula, $db_con);
+				$noafectan=noafectan($cedula, $db_con);
+				$sql='select * from '.$_SESSION['institucion'].'sgcaf200 where ced_prof=:cedula';
+					$result=$db_con->prepare($sql);
+					$result->execute(array(
+						":cedula"=>$cedula,
+						));
+				$fila = $result->fetch(PDO::FETCH_ASSOC);
+				$fianzas=fianzas($fila['cod_prof'], $db_con);
+				$disponible=disponibilidad($ahorros,$afectan,$noafectan,$fianzas, $db_con); 
+				echo '<strong>';
+		  		if ($disponible<=0)
+					{
+						$imagen='24-em-cross.png';
+						$cuento_mostrar='Disponibilidad Negativa';
+						$cuento_interno='disp_neg';
+					}
+				else {
+						$imagen='24-em-check.png';
+						$cuento_mostrar='Disponibilidad Positiva';
+						$cuento_interno='disp_pos';
 				}
-			else {
-					$imagen='24-em-check.png';
-					$cuento_mostrar='Disponibilidad Positiva';
-					$cuento_interno='disp_pos';
-			}
-			echo '<img src="imagenes/'.$imagen.'" width="22" height="19" alt="'.$cuento_mostrar.'" longdesc="'.$cuento_interno.'" />';
-			echo number_format($disponible,$deci,$sep_decimal,$sep_miles); 
-			echo '<img src="imagenes/'.$imagen.'" width="22" height="19" alt="'.$cuento_mostrar.'" longdesc="'.$cuento_interno.'" />';
-//			$_SESSION['disponibilidadprestamo']=1234; // $disponible; 
-			$_SESSION['disponibilidadprestamo']=$disponible; 
-			$_SESSION['elstatus']=strtoupper($fila['statu_prof']);
-			$hoy=date("Y-m-d", time());
-			$pasados=(dias_pasados($fila['f_ing_capu'],$hoy)/30) ;
-		   $_SESSION['tiempoactivo']=intval($pasados);
-		 ?></strong></td>
+				echo '<img src="imagenes/'.$imagen.'" width="22" height="19" alt="'.$cuento_mostrar.'" longdesc="'.$cuento_interno.'" />';
+				echo number_format($disponible,$deci,$sep_decimal,$sep_miles); 
+				echo '<img src="imagenes/'.$imagen.'" width="22" height="19" alt="'.$cuento_mostrar.'" longdesc="'.$cuento_interno.'" />';
+	//			$_SESSION['disponibilidadprestamo']=1234; // $disponible; 
+				$_SESSION['disponibilidadprestamo']=$disponible; 
+				$_SESSION['elstatus']=strtoupper($fila['statu_prof']);
+				$hoy=date("Y-m-d", time());
+				$pasados=(dias_pasados($fila['f_ing_capu'],$hoy)/30) ;
+			    $_SESSION['tiempoactivo']=intval($pasados);
+		?></strong></td>
 	</tr>
 </table>
 </fieldset> 
 
 <?php
-if (strtoupper($fila['statu_prof']) == 'RETIRA')
-{
-	echo '<tr><td colspan="8"><br><br><h2>Socio Esta Retirado</h2></td></tr>';
-	echo '<script>alert("Socio Esta Retirado");</script> ';
-	$_SESSION['motivo']=$cuento;
-	echo '</table>';
-	exit;
-}
+	}
+	catch(PDOException $e)
+	{
+		echo $e->getMessage().$sql;
+	}
+	if (strtoupper($fila['statu_prof']) == 'RETIRA')
+	{
+		echo '<tr><td colspan="8"><br><br><h2>Socio Esta Retirado</h2></td></tr>';
+		echo '<script>alert("Socio Esta Retirado");</script> ';
+		$_SESSION['motivo']=$cuento;
+		echo '</table>';
+		exit;
+	}
 }
 
 /*
@@ -1996,4 +1988,5 @@ function generar_comprobantes($sql_360)
 {
 }
 */
+echo 'list';
 ?>
