@@ -1,4 +1,5 @@
 <?php
+die('llegue a solpre2');
 	$micedula=$_SESSION['micedula'];
 	$laparte =$_SESSION['micodigo'];
 //	echo 'micedula '.$micedula . ' / '.$_SESSION['micodigo'] . ' prestamo '.$r_360['cod_pres'].'<br>';

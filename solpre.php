@@ -481,151 +481,155 @@ if ($accion == "EscogePrestamo")  {	// selecciono el tipo de prestamo
 
 if ($accion == "Solicitar") {	// aprobar
 //	phpinfo();
-	$elprestamo = $_POST['elprestamo'];
-	$estatus='S';
-	$sql_360="select * from ".$_SESSION['institucion']."sgcaf360 where cod_pres='$elprestamo'";
 	try
 	{
-		$a_360=$db_con->prepare($sql_360);
-		$a_360->execute();
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
-	$r_360=$a_360->fetch(PDO::FETCH_ASSOC);
-	if ($r_360['aprobar'] == 1) $estatus= 'A';
-	$cedula = $_POST['cedula'];
-	$elprestamo = $_POST['elprestamo'];
-	$elnumero = $_POST['elnumero'];
-//	echo 'llego sta cedula '.$cedula;
-//	phpinfo();
-//	$primerdcto = convertir_fecha($_POST['primerdcto']);
-//	die ('primer dectuentp: '.$_POST['primerdcto']);
-	$monpre_sdp = $_POST['monpre_sdp'];
-	$inicial = $_POST['inicial'];
-	$_SESSION['cedula']=$cedula;
-	$_SESSION['elnumero']=$elnumero;
-	$_SESSION['elprestamo']=$elprestamo;
-	$cuota = $_POST['cuota'];
-	$interes_sd = $_POST['interes_sd'];
-	$lascuotas = $_POST['lascuotas'];
-	$micedula=substr($cedula,0,4).'.'.substr($cedula,4,3).'.'.substr($cedula,7,4);
-	$_SESSION['micedula']=$micedula;
-	$_SESSION['micodigo']=$micedula;
-	$sql_200="select * from ".$_SESSION['institucion']."sgcaf200 where ced_prof='$cedula'";
-	try
-	{
+		$elprestamo = $_POST['elprestamo'];
+		$estatus='S';
+		$sql_360="select * from ".$_SESSION['institucion']."sgcaf360 where cod_pres=:elprestamo";
+			$a_360=$db_con->prepare($sql_360);
+			$a_360->execute(array(
+				":elprestamo"=>$elprestamo
+				));
+		$r_360=$a_360->fetch(PDO::FETCH_ASSOC);
+		if ($r_360['aprobar'] == 1) $estatus= 'A';
+		$cedula = $_POST['cedula'];
+		$elprestamo = $_POST['elprestamo'];
+		$elnumero = $_POST['elnumero'];
+	//	echo 'llego sta cedula '.$cedula;
+	//	phpinfo();
+		$primerdcto = $_POST['primerdcto'];
+	//	$primerdcto = convertir_fecha($_POST['primerdcto']);
+	//	die ('primer dectuentp: '.$_POST['primerdcto']);
+		$monpre_sdp = $_POST['monpre_sdp'];
+		$inicial = $_POST['inicial'];
+		$_SESSION['cedula']=$cedula;
+		$_SESSION['elnumero']=$elnumero;
+		$_SESSION['elprestamo']=$elprestamo;
+		$cuota = $_POST['cuota'];
+		$interes_sd = $_POST['interes_sd'];
+		$lascuotas = $_POST['lascuotas'];
+		$micedula=substr($cedula,0,4).'.'.substr($cedula,4,3).'.'.substr($cedula,7,4);
+		$_SESSION['micedula']=$micedula;
+		$_SESSION['micodigo']=$micedula;
+		$sql_200="select * from ".$_SESSION['institucion']."sgcaf200 where ced_prof=:cedula";
 		$a_200=$db_con->prepare($sql_200);
-		$a_200->execute();
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
-	$r_200=$a_200->fetch(PDO::FETCH_ASSOC);
+		$a_200->execute(array(
+			":cedula"=>$cedula
+			));
+		$r_200=$a_200->fetch(PDO::FETCH_ASSOC);
 
-	$laparte=$r_200['cod_prof'];
-	$codigo=$laparte;
-	$nroacta=$_POST['nroacta']; 
-	$fechaacta=$_POST['fechaacta'];
-	$_SESSION['status_prof']=strtoupper($r_200['statu_prof']);
-//	echo 'aqui viene '.$codigo;
-	$_SESSION['micodigo']=$codigo;
-	// una sola fecha directa
-	$sql_acta="select * from ".$_SESSION['institucion']."sgcafact where acta='$nroacta' and f_dcto='$primerdcto' order by fecha desc limit 1";
-//	echo $sql_acta;
-	try
-	{
+		$laparte=$r_200['cod_prof'];
+		$codigo=$laparte;
+		$nroacta=$_POST['nroacta']; 
+		$fechaacta=$_POST['fechaacta'];
+		$_SESSION['status_prof']=strtoupper($r_200['statu_prof']);
+	//	echo 'aqui viene '.$codigo;
+		$_SESSION['micodigo']=$codigo;
+		// una sola fecha directa
+		$sql_acta="select * from ".$_SESSION['institucion']."sgcafact where acta=:nroacta and f_dcto=:primerdcto order by fecha desc limit 1";
+	//	echo $sql_acta;
 		$las_actas=$db_con->prepare($sql_acta);
-		$las_actas->execute();
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
-	$el_acta=$las_actas->fetch(PDO::FETCH_ASSOC);
-	$nroacta=$el_acta['acta'];
-	$fechaacta=$el_acta['fecha'];
-	// fin de una sola fecha directa
-	$hoy = date("Y-m-d");
-	$b = $hoy;
-	$elasiento = date("ymd").$codigo;
-	$ip = $_SERVER['HTTP_CLIENT_IP'];
-	if (!$ip) {$ip = $_SERVER['REMOTE_ADDR'];}
-	$intereses_diferidos=$_POST['interes_diferido'];
-	$_SESSION['montoprestamo']=$monpre_sdp;
-	
-//	echo 'numero a renovar'.$_SESSION['numeroarenovar'];
+		$las_actas->execute(array(
+			":nroacta"=>$nroacta,
+			"primerdcto"=>$primerdcto,
+			));
+		$el_acta=$las_actas->fetch(PDO::FETCH_ASSOC);
+		$nroacta=$el_acta['acta'];
+		$fechaacta=$el_acta['fecha'];
+		// fin de una sola fecha directa
+		$hoy = date("Y-m-d");
+		$b = $hoy;
+		$elasiento = date("ymd").$codigo;
+		$ip = la_ip();
+		$intereses_diferidos=$_POST['interes_diferido'];
+		$_SESSION['montoprestamo']=$monpre_sdp;
+		
+	//	echo 'numero a renovar'.$_SESSION['numeroarenovar'];
 
-	/////////////////
-//	$primerdcto='0000-00-00';
-	echo "Creando préstamo nuevo numero <strong>$elnumero</strong><br>";
-	$sql="insert into ".$_SESSION['institucion']."sgcaf310 (codsoc_sdp, cedsoc_sdp, nropre_sdp, codpre_sdp, f_soli_sdp, f_1cuo_sdp, monpre_sdp, monpag_sdp, nrofia_sdp, stapre_sdp, tipo_fianz, cuota, nrocuotas, interes_sd, cuota_ucla, netcheque, nro_acta, fecha_acta, ip, inicial, intereses, quien) values (:laparte, :micedula, :elnumero, :elprestamo, :hoy, :primerdcto, :monpre_sdp, 0, 0, :estatus, '', :cuota, :lascuotas, :interes_sd, :cuota2, :monpre_sdp, :nroacta, :fechaacta, :ip, :inicial, :intereses_diferidos, :donde)";
-//	echo $sql;
-	try
-	{
+		/////////////////
+	//	$primerdcto='0000-00-00';
+		mensaje(array(
+			"tipo"=>'info',
+			"texto"=>'Creando préstamo nuevo numero <strong>$elnumero</strong>',
+			));
+		$sql="insert into ".$_SESSION['institucion']."sgcaf310 (codsoc_sdp, cedsoc_sdp, nropre_sdp, codpre_sdp, f_soli_sdp, f_1cuo_sdp, monpre_sdp, monpag_sdp, nrofia_sdp, stapre_sdp, tipo_fianz, cuota, nrocuotas, interes_sd, cuota_ucla, netcheque, nro_acta, fecha_acta, ip, inicial, intereses, quien, ultcan_sdp, monfia_sdp, monint, pag_ucla, renovado, renova_por) values (:laparte, :micedula, :elnumero, :elprestamo, :hoy, :primerdcto, :monpre_sdp, 0, 0, :estatus, '', :cuota, :lascuotas, :interes_sd, :cuota2, :monpre_sdp, :nroacta, :fechaacta, :ip, :inicial, :intereses_diferidos, :donde, :ultcan_sdp, :monfia_sdp, :monint, :pag_ucla, :renovado, :renova_por)";
+	//	echo $sql;
+
+		/*
+			update `CAPPOUCLA_sgcaf310` set paga_hasta=now() WHERE paga_hasta IS NULL;
+			update `CAPPOUCLA_sgcaf310` set f_pago=now() WHERE f_pago IS NULL;
+			update `CAPPOUCLA_sgcaf310` set vige_hasta=now() WHERE vige_hasta IS NULL;
+			update `CAPPOUCLA_sgcaf310` set vige_desde=now() WHERE vige_desde IS NULL;
+			update `CAPPOUCLA_sgcaf310` set hipo_hasta=now() WHERE hipo_hasta IS NULL;
+			update `CAPPOUCLA_sgcaf310` set protocolo=now() WHERE protocolo IS NULL;
+			update `CAPPOUCLA_sgcaf310` set c10=now() WHERE c10 IS NULL;
+			update `CAPPOUCLA_sgcaf310` set fecha_acta=now() WHERE fecha_acta IS NULL;
+			update `CAPPOUCLA_sgcaf310` set f_1cuo_sdp=now() WHERE f_1cuo_sdp IS NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `paga_hasta` `paga_hasta` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set paga_hasta=NULL WHERE paga_hasta=2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `f_pago` `f_pago` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set f_pago=NULL WHERE f_pago='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `vige_hasta` `vige_hasta` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set vige_hasta=NULL WHERE vige_hasta='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `hipo_hasta` `hipo_hasta` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set hipo_hasta=NULL WHERE hipo_hasta='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `protocolo` `protocolo` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set protocolo=NULL WHERE protocolo='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c10` `c10` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set c10=NULL WHERE c10='2018-01-23';
+
+		*/
+
 		$las_actas=$db_con->prepare($sql);
 		$las_actas->execute(array(
-			":laparte"=>$laparte,
-			":micedula"=>$micedula,
-			":elnumero"=>$elnumero,
-			":elprestamo"=>$elprestamo,
-			":hoy"=>$hoy,
-			":primerdcto"=>$primerdcto,
-			":monpre_sdp"=>$monpre_sdp,
-			":estatus"=>$estatus,
-			":cuota"=>$cuota,
-			":lascuotas"=>$lascuotas,
-			":interes_sd"=>$interes_sd,
-			":cuota2"=>$cuota,
-			":monpre_sdp"=>$monpre_sdp,
-			":nroacta"=>$nroacta,
-			":fechaacta"=>$fechaacta,
-			":ip"=>$ip,
-			":inicial"=>$inicial,
-			":intereses_diferidos"=>$intereses_diferidos,
-			":donde"=>$_SERVER['REMOTE_ADDR'],
-			));
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
-	$primerdcto=$_POST['primerdcto'];
-//	$primer_dcto=convertir_fechadmy($el_acta['f_dcto']);
-	echo "<input type = 'hidden' value ='".$primerdcto."' name='primerdcto' id='primerdcto'>";
-	$_SESSION['primerdcto']=$primerdcto;
-	if ($r_360['restar_otros'] == 1) $accion='Restar';
-	else 
-	if ($r_360['genera_com'] == 1){
-		// generar_comprobantes($sql_360);
-		include('solpre_2.php');
-//**********************************
-	$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = $neto_cheque where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	if ($elprestamo == '055')
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	if ($elprestamo == '064')
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 19999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	if ($elprestamo == '066')
-//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 68600 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	if ($elprestamo == '068')
-		// $sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 49500 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 69300 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 98000 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	try
-	{
-		$resultado=$db_con->prepare($sql);
-		$resultado->execute();
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
-	if ($r_360['albanco']==0)
-	{
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 0 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+				":laparte"=>$laparte,
+				":micedula"=>$micedula,
+				":elnumero"=>$elnumero,
+				":elprestamo"=>$elprestamo,
+				":hoy"=>$hoy,
+				":primerdcto"=>$primerdcto,
+				":monpre_sdp"=>$monpre_sdp,
+				":estatus"=>$estatus,
+				":cuota"=>$cuota,
+				":lascuotas"=>$lascuotas,
+				":interes_sd"=>$interes_sd,
+				":cuota2"=>$cuota,
+				":monpre_sdp"=>$monpre_sdp,
+				":nroacta"=>$nroacta,
+				":fechaacta"=>$fechaacta,
+				":ip"=>$ip,
+				":inicial"=>$inicial,
+				":intereses_diferidos"=>$intereses_diferidos,
+				":donde"=>$_SERVER['REMOTE_ADDR'],
+				":ultcan_sdp"=>0,
+				":monfia_sdp"=>0,
+				":monint"=>0,
+				":pag_ucla"=>0,
+				":renovado"=>0,
+				":renova_por"=>'',
+				));
+		$primerdcto=$_POST['primerdcto'];
+	//	$primer_dcto=convertir_fechadmy($el_acta['f_dcto']);
+		echo "<input type = 'hidden' value ='".$primerdcto."' name='primerdcto' id='primerdcto'>";
+		$_SESSION['primerdcto']=$primerdcto;
+		if ($r_360['restar_otros'] == 1) $accion='Restar';
+		else 
+		if ($r_360['genera_com'] == 1){
+			// generar_comprobantes($sql_360);
+			include('solpre_2.php');
+	//**********************************
+		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = $neto_cheque where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+		if ($elprestamo == '055')
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+		if ($elprestamo == '064')
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 19999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+		if ($elprestamo == '066')
+	//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 68600 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+		if ($elprestamo == '068')
+			// $sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 49500 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+	//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 69300 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 98000 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
 		try
 		{
 			$resultado=$db_con->prepare($sql);
@@ -635,35 +639,52 @@ if ($accion == "Solicitar") {	// aprobar
 			echo $e->getMessage();
 			// echo 'Fallo la conexion';
 		}
-	}
-	$_SESSION['elasiento']=$elasiento;		
-	actualizar_acta($nroacta,$debe,$primerdcto);
-////////////////////////////
-
-	}
-	if ($r_360['genera_pl'] == 1) 
-		if ($r_360['nom_planilla'] == '') {
-			echo 'Preparando para la impresion<br>';
-			echo "<a target=\"_blank\" href=\"solprepdf.php?cedula=$cedula\" onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Planilla de Préstamo </a>"; 	
-		}
-		else {
-			echo 'Preparando para la impresion dinámica<br>';
-			echo "<a target=\"_blank\" href='";
-			echo $r_360['nom_planilla'];
-			echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Planilla de Préstamo </a>"; 	
-		}
-//		echo 'codigo'.$r_360['cod_prest'] ;
-		if (($r_360['cod_pres']=='055') or ($r_360['cod_pres']=='064') or ($r_360['cod_pres']=='066')or ($r_360['cod_pres']=='068')) // vivienda
+		if ($r_360['albanco']==0)
 		{
-			echo "<br><a target=\"_blank\" href='";
-			echo 'actdat_giros.php';
-			echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Verificar Datos del Socio<br></a>"; 	
-
-			echo "<a target=\"_blank\" href='";
-			echo 'imp_girospdf.php';
-			echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Giros</a>"; 	
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 0 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
+			try
+			{
+				$resultado=$db_con->prepare($sql);
+				$resultado->execute();
+			}
+			catch(PDOException $e){
+				echo $e->getMessage();
+				// echo 'Fallo la conexion';
+			}
 		}
-	else echo '<h2>Este tipo de préstamo esta configurado para no realizar impresión de planilla</h2>';
+		$_SESSION['elasiento']=$elasiento;		
+		actualizar_acta($nroacta,$debe,$primerdcto);
+	////////////////////////////
+
+		}
+		if ($r_360['genera_pl'] == 1) 
+			if ($r_360['nom_planilla'] == '') {
+				echo 'Preparando para la impresion<br>';
+				echo "<a target=\"_blank\" href=\"solprepdf.php?cedula=$cedula\" onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Planilla de Préstamo </a>"; 	
+			}
+			else {
+				echo 'Preparando para la impresion dinámica<br>';
+				echo "<a target=\"_blank\" href='";
+				echo $r_360['nom_planilla'];
+				echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Planilla de Préstamo </a>"; 	
+			}
+	//		echo 'codigo'.$r_360['cod_prest'] ;
+			if (($r_360['cod_pres']=='055') or ($r_360['cod_pres']=='064') or ($r_360['cod_pres']=='066')or ($r_360['cod_pres']=='068')) // vivienda
+			{
+				echo "<br><a target=\"_blank\" href='";
+				echo 'actdat_giros.php';
+				echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Verificar Datos del Socio<br></a>"; 	
+
+				echo "<a target=\"_blank\" href='";
+				echo 'imp_girospdf.php';
+				echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Giros</a>"; 	
+			}
+		else echo '<h2>Este tipo de préstamo esta configurado para no realizar impresión de planilla</h2>';
+	}
+	catch(PDOException $e){
+		echo $e->getMessage();
+		// echo 'Fallo la conexion';
+	}
 
 	/// *****imprimri en otro momento, faltan los fiadores*****
 } // fin de ($accion == "Solicitar")
@@ -1632,11 +1653,12 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	mensaje(array(
 		"tipo"=>'info',
 		"texto"=>trim($r_360['descr_pres']). ' / '.trim($r_200['ape_prof']). ', '.trim($r_200['nombr_prof']).' / '.$r_200['ced_prof'].' / '.$r_200['cod_prof'].' / '.$elnumero,
+		"emergente"=>2,
 		));
 
 	if 	($_SESSION['numeroarenovar']) echo ' <br>(Renovacion) ';
 	echo '</legend>';
-	echo '<table class="table table-bordered" width="500" border="1">';
+	echo '<table class="table table-bordered">' ; //" width="500" border="1">';
 	echo '<tr>';
 
 	$inspeccion = 0;
@@ -1704,15 +1726,8 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	echo "<input type = 'hidden' value ='".$maximodisponible."' name='elmaximo' id='elmaximo'>";
 //	---------------
 	echo '</td>';
-
-	echo '<td rowspan="8">';
-	$lafoto='fotos/'.substr($cedula,2,8).'.jpg';
-	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
-	echo '</div>';
-	echo '</td>';
-
-	echo '</tr>';
-	echo '<tr>';
+	// echo '</tr>';
+	// echo '<tr>';
 	$hoy=date("d/m/Y", time());
 	$sql_acta="select * from ".$_SESSION['institucion']."sgcafact where especial = 0 order by fecha desc limit 1";
 	try
@@ -1726,7 +1741,15 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	}
 	$el_acta=$las_actas->fetch(PDO::FETCH_ASSOC);
 	echo '<td>Fecha de solicitud </td><td>'.$hoy.'</td>';
-    echo '<td>Monto Pagado </td><td  align="right">'.number_format(0,$deci,$sep_decimal,$sep_miles).'</td></tr>';
+    echo '<td>Monto Pagado </td><td  align="right">'.number_format(0,$deci,$sep_decimal,$sep_miles).'</td>';
+
+	echo '<td rowspan="5">';
+	$lafoto='fotos/'.substr($cedula,2,8).'.jpg';
+	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
+	echo '</div>';
+	echo '</td>';
+	echo '</tr>';
+
 	echo '<tr>';
 	echo '<td>1er Descuento </td><td>';
 	echo convertir_fechadmy($el_acta['f_dcto']);
@@ -1760,8 +1783,9 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 
 	}
 	echo '</td>';
-    echo '<td>Saldo </td><td  align="right">'.number_format(0,$deci,$sep_decimal,$sep_miles).'</td></tr>';
-	echo '<tr>';
+    echo '<td>Saldo </td><td  align="right">'.number_format(0,$deci,$sep_decimal,$sep_miles).'</td>';
+//    echo '</tr>';
+//	echo '<tr>';
 	echo '<td>CC/NC</td><td>'.'0'.' de ';
 	echo '<select id="lascuotas" name="lascuotas" size="1">';
 	for ($laposicion=$r_360['n_cuo_pres'];$laposicion >= 1;$laposicion--) {
@@ -1774,8 +1798,9 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	echo '<input class="form-control"  align="right" name="cuota" type="text" id="cuota" size="12" maxlength="12" readonly="readonly" value ="0.00">';
 	echo '<input align="right" name="descontar_interes" type="hidden" id="descontar_interes" size="12" maxlength="12" readonly="readonly" value ='.$r_360['int_dif'].'>';
 	echo '<input align="right" name="monto_futuro" type="hidden" id="monto_futuro" size="12" maxlength="12" readonly="readonly" value ='.$r_360['montofuturo'].'>';
-	echo '</td></tr>';
-	echo '<tr>';
+	echo '</td>';
+//	echo '</tr>';
+//	echo '<tr>';
 	
 	$nroacta=$el_acta['acta'];
 	$fechaacta=$el_acta['fecha'];
@@ -1784,17 +1809,20 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	echo '<input align="right" name="fechaacta" type="hidden" id="fechaacta" size="12" maxlength="12" readonly="readonly" value ="'.$fechaacta.'">';
 	echo '<tr><td>Intereses: </td><td align="right">';
 	echo '<input align="right" name="interes_diferido" type="hidden" id="interes_diferido" size="12" maxlength="12" readonly="readonly" value ="0.00"></td>';
-	echo '<td>Cuota Modificada </td><td align="right">'.number_format($r_310['cuota_ucla'],$deci,$sep_decimal,$sep_miles).'</td></tr>';
-	echo '<tr><td>Gastos Administrativos: </td><td align="right">';
+	echo '<td>Cuota Modificada </td><td align="right">'.number_format($r_310['cuota_ucla'],$deci,$sep_decimal,$sep_miles).'</td>';
+//	echo '</tr>';
+//	echo '<tr>';
+	echo '<td>Gastos Administrativos: </td><td align="right">';
 	echo '<input class="form-control" align="right" name="gastosadministrativos" type="text" id="gastosadministrativos" size="12" maxlength="12" readonly="readonly" value ="0.00"';
 	echo '</td><td>Inicial</td><td align="right">';
 	echo '<input class="form-control" align="right" name="inicial" type="text" id="inicial" size="12" maxlength="12" value ="0.00"';
 	if ($r_360['inicial'] == 0)
 		echo 'readonly="readonly" ';
 	echo '>';
-	echo '</td></tr><tr>';
-	echo '<td>Acta / Fecha </td><td>'.$nroacta.' del '.convertir_fechadmy($fechaacta).'</td>';
-	echo '<td>Neto a Depositar<br><em>No incluye otros prestamos</em></td><td align="right">';
+	echo '</td></tr>';
+	echo '<tr>';
+	echo '<td colspan="2">Acta / Fecha </td><td  colspan="2">'.$nroacta.' del '.convertir_fechadmy($fechaacta).'</td>';
+	echo '<td colspan="2">Neto a Depositar<br><em>No incluye otros prestamos</em></td><td colspan="2" align="right">';
 	echo '<input class="form-control" align="right" name="montoneto" type="text" id="montoneto" size="12" maxlength="12" readonly="readonly" value ="0.00"';
 	echo '</td></tr><tr>';
 //	echo '<tr><td align="center" colspan="4">';
@@ -1804,9 +1832,9 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 
 //	<input type="button" name="calculo" value="Calcular a" onClick="Cargarcontenido('mostrarpr.php','c=3', 'form1', 'contenido2')">	
 	if ($texto =='') {
-	echo '<td align="center" colspan="2"> '; 
+	echo '<td align="center" colspan="9"> '; 
 	echo '<input class="btn btn-info" type="button" name="calculo" value="Calcular Cuota" onClick="ajax_call()">	';
-	echo '</td><td align="center" colspan="2"> ';
+	// echo '</td><td align="center" colspan="5"> ';
 	echo "<input class='btn btn-success' type = 'submit' value = 'Crear Pr&eacute;stamo'>"; 
 
 	// <a title="Calcular" href="javascript:Cargarcontenido('mostrarpr.php', 'c=3', 'form1', 'contenido2')">Calcular</a>
@@ -1815,9 +1843,11 @@ function pantalla_completar_prestamo($cedula, $tipo, $db_con)
 	echo '</fieldset>';
 //	echo 'numero a renovar '.$_SESSION['numeroarenovar'];
 //	echo '</div>';
+/*
 	$lafoto='fotos/'.substr($cedula,2,8).'.jpg';
 	echo "<br><br><img src='".$lafoto."' width='156' height='156' border='0' />";
 	echo '</div>';
+*/
 //	echo '<div id="contenido2"></div>';
 }
 

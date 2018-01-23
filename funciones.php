@@ -1337,11 +1337,32 @@ function numero_prestamo($micedula, $laparte, $db_con)
 
 function mensaje($arreglo)
 {
-//echo "<div class='alert alert-success'>	<button class='close' data-dismiss='alert'>&times;</button>	<strong>Bienvenido alguien</strong> </div>";
-echo "<div class='alert alert-".$arreglo['tipo']."'>";
-echo "<button class='close' data-dismiss='alert'>&times;</button>";
-echo $arreglo['texto'];
-echo "</div>";
+	if ($arreglo['emergente'] == 2)
+	{
+		echo "<div class='alert alert-".$arreglo['tipo']."'>";
+		echo "<button class='close' data-dismiss='alert'>&times;</button>";
+		echo $arreglo['texto'];
+		echo "</div>";
+	}
+	else
+	{
+		if ($arreglo['tipo'] == 'danger')
+			$arreglo['tipo'] = 'error';
+		if ($arreglo['tipo'] == 'default')
+			$arreglo['tipo'] = 'info';
+		echo "
+		<script type='text/javascript'>
+		toastr.options.newestOnTop = true;
+		toastr.options.closeMethod = 'fadeOut';
+		toastr.options.closeDuration = 300;
+		toastr.options.closeEasing = 'swing';
+		toastr.options.preventDuplicates = false;
+		toastr.options.progressBar = true;
+		toastr.options.closeButton = true;
+		toastr.".$arreglo['tipo']."('".$arreglo['titulo']."','".$arreglo['texto']."')
+		</script>
+		";
+	}
 }
 
 function la_ip()
