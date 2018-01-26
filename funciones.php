@@ -1337,6 +1337,7 @@ function numero_prestamo($micedula, $laparte, $db_con)
 
 function mensaje($arreglo)
 {
+	die($arreglo['emergente'].'aaaaa');
 	if ($arreglo['emergente'] == 2)
 	{
 		echo "<div class='alert alert-".$arreglo['tipo']."'>";

@@ -552,7 +552,7 @@ if ($accion == "Solicitar") {	// aprobar
 			"tipo"=>'info',
 			"texto"=>'Creando préstamo nuevo numero <strong>$elnumero</strong>',
 			));
-		$sql="insert into ".$_SESSION['institucion']."sgcaf310 (codsoc_sdp, cedsoc_sdp, nropre_sdp, codpre_sdp, f_soli_sdp, f_1cuo_sdp, monpre_sdp, monpag_sdp, nrofia_sdp, stapre_sdp, tipo_fianz, cuota, nrocuotas, interes_sd, cuota_ucla, netcheque, nro_acta, fecha_acta, ip, inicial, intereses, quien, ultcan_sdp, monfia_sdp, monint, pag_ucla, renovado, renova_por) values (:laparte, :micedula, :elnumero, :elprestamo, :hoy, :primerdcto, :monpre_sdp, 0, 0, :estatus, '', :cuota, :lascuotas, :interes_sd, :cuota2, :monpre_sdp, :nroacta, :fechaacta, :ip, :inicial, :intereses_diferidos, :donde, :ultcan_sdp, :monfia_sdp, :monint, :pag_ucla, :renovado, :renova_por)";
+		$sql="insert into ".$_SESSION['institucion']."sgcaf310 (codsoc_sdp, cedsoc_sdp, nropre_sdp, codpre_sdp, f_soli_sdp, f_1cuo_sdp, monpre_sdp, monpag_sdp, nrofia_sdp, stapre_sdp, tipo_fianz, cuota, nrocuotas, interes_sd, cuota_ucla, netcheque, nro_acta, fecha_acta, ip, inicial, intereses, quien, ultcan_sdp, monfia_sdp, monint, pag_ucla, renovado, renova_por, ultcan_pro, monpag_pro, stapre_pro, monint_pro) values (:laparte, :micedula, :elnumero, :elprestamo, :hoy, :primerdcto, :monpre_sdp, 0, 0, :estatus, '', :cuota, :lascuotas, :interes_sd, :cuota2, :monpre_sdp, :nroacta, :fechaacta, :ip, :inicial, :intereses_diferidos, :donde, :ultcan_sdp, :monfia_sdp, :monint, :pag_ucla, :renovado, :renova_por, :ultcan_pro, :monpag_pro, :estatus, :monint_pro)";
 	//	echo $sql;
 
 		/*
@@ -569,6 +569,8 @@ if ($accion == "Solicitar") {	// aprobar
 			update `CAPPOUCLA_sgcaf310` set paga_hasta=NULL WHERE paga_hasta=2018-01-23';
 			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `f_pago` `f_pago` DATE NULL;
 			update `CAPPOUCLA_sgcaf310` set f_pago=NULL WHERE f_pago='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `vige_desde` `vige_desde` DATE NULL;
+			update `CAPPOUCLA_sgcaf310` set vige_desde=NULL WHERE vige_desde='2018-01-23';
 			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `vige_hasta` `vige_hasta` DATE NULL;
 			update `CAPPOUCLA_sgcaf310` set vige_hasta=NULL WHERE vige_hasta='2018-01-23';
 			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `hipo_hasta` `hipo_hasta` DATE NULL;
@@ -577,6 +579,29 @@ if ($accion == "Solicitar") {	// aprobar
 			update `CAPPOUCLA_sgcaf310` set protocolo=NULL WHERE protocolo='2018-01-23';
 			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c10` `c10` DATE NULL;
 			update `CAPPOUCLA_sgcaf310` set c10=NULL WHERE c10='2018-01-23';
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `aplicado` `aplicado` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `seguro` `seguro` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c1` `c1` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c2` `c2` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c3` `c3` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c4` `c4` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c5` `c5` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			update CAPPOUCLA_sgcaf310 set c6 = '', c7='', c8='', c9='', c11='', c12='' , c13='', c14=''; 
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c6` `c6` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c7` `c7` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c8` `c8` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c9` `c9` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c11` `c11` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c12` `c12` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c13` `c13` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `c14` `c14` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `ctaprestamo` `ctaprestamo` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `ctaodeduc` `ctaodeduc` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `ctaindebidos` `ctaindebidos` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `otroreintegro` `otroreintegro` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `ctaodeduc` `ctaodeduc` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+			ALTER TABLE `CAPPOUCLA_sgcaf310` CHANGE `ctaodeduc` `ctaodeduc` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL;
+
 
 		*/
 
@@ -606,63 +631,64 @@ if ($accion == "Solicitar") {	// aprobar
 				":monint"=>0,
 				":pag_ucla"=>0,
 				":renovado"=>0,
+				":ultcan_pro"=>0,
+				":monpag_pro"=>0,
+				":monint_pro"=>0,
 				":renova_por"=>'',
 				));
 		$primerdcto=$_POST['primerdcto'];
 	//	$primer_dcto=convertir_fechadmy($el_acta['f_dcto']);
 		echo "<input type = 'hidden' value ='".$primerdcto."' name='primerdcto' id='primerdcto'>";
+		echo 'generar plan '.$r_360['genera_pl'];
 		$_SESSION['primerdcto']=$primerdcto;
 		if ($r_360['restar_otros'] == 1) $accion='Restar';
 		else 
-		if ($r_360['genera_com'] == 1){
+		if ($r_360['genera_com'] == 1) 
+		{
 			// generar_comprobantes($sql_360);
 			include('solpre_2.php');
 	//**********************************
-		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = $neto_cheque where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		if ($elprestamo == '055')
-			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		if ($elprestamo == '064')
-			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 19999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		if ($elprestamo == '066')
-	//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 29999 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 68600 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		if ($elprestamo == '068')
-			// $sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 49500 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-	//		$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 69300 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 98000 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-		try
-		{
+			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = :neto_cheque where cedsoc_sdp = :micedula and nropre_sdp=:referencia";
+			echo $sql;
+			if ($elprestamo == '055') $neto_cheque=29999; 
+			if ($elprestamo == '064') $neto_cheque=19999; 
+			if ($elprestamo == '066') $neto_cheque=68600; 
+			if ($elprestamo == '068') $neto_cheque=98000; 
 			$resultado=$db_con->prepare($sql);
-			$resultado->execute();
-		}
-		catch(PDOException $e){
-			echo $e->getMessage();
-			// echo 'Fallo la conexion';
-		}
-		if ($r_360['albanco']==0)
-		{
-			$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = 0 where cedsoc_sdp = '$micedula' and nropre_sdp='$referencia'";
-			try
+			echo $sql;
+			echo 'a1';
+			$resultado->execute(array(
+					":micedula"=>$micedula,
+					":referencia"=>$referencia,
+					":neto_cheque"=>$neto_cheque,
+				));
+			echo 'b1';
+			if ($r_360['albanco']==0)
 			{
+				$sql="update ".$_SESSION['institucion']."sgcaf310 set netcheque = :neto_cheque where cedsoc_sdp = :micedula and nropre_sdp=:referencia";
+				$neto_cheque=0;
 				$resultado=$db_con->prepare($sql);
-				$resultado->execute();
+				echo 'a';
+				$resultado->execute(array(
+						":micedula"=>$micedula,
+						":referencia"=>$referencia,
+						":neto_cheque"=>$neto_cheque,
+					));
+				echo 'b';
 			}
-			catch(PDOException $e){
-				echo $e->getMessage();
-				// echo 'Fallo la conexion';
-			}
-		}
-		$_SESSION['elasiento']=$elasiento;		
-		actualizar_acta($nroacta,$debe,$primerdcto);
-	////////////////////////////
-
+			$_SESSION['elasiento']=$elasiento;		
+			actualizar_acta($nroacta, $debe, $primerdcto, $db_con);
+		////////////////////////////
 		}
 		if ($r_360['genera_pl'] == 1) 
-			if ($r_360['nom_planilla'] == '') {
+		{
+			if ($r_360['nom_planilla'] == '') 
+			{
 				echo 'Preparando para la impresion<br>';
 				echo "<a target=\"_blank\" href=\"solprepdf.php?cedula=$cedula\" onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Planilla de Préstamo </a>"; 	
 			}
-			else {
+			else 
+			{
 				echo 'Preparando para la impresion dinámica<br>';
 				echo "<a target=\"_blank\" href='";
 				echo $r_360['nom_planilla'];
@@ -679,13 +705,18 @@ if ($accion == "Solicitar") {	// aprobar
 				echo 'imp_girospdf.php';
 				echo "?cedula=$cedula' onClick=\"info.html\', \'\',\'width=250, height=190\')\">Imprimir Giros</a>"; 	
 			}
-		else echo '<h2>Este tipo de préstamo esta configurado para no realizar impresión de planilla</h2>';
+		}
+		else 
+			mensaje(array(
+				"tipo"=>'info',
+				"texto"=>'<strong>Este tipo de pr&eacute;stamo esta configurado para NO realizar impresi&oacute;n de planilla</strong>',
+				"emergente"=>1,
+				));
 	}
 	catch(PDOException $e){
 		echo $e->getMessage();
 		// echo 'Fallo la conexion';
 	}
-
 	/// *****imprimri en otro momento, faltan los fiadores*****
 } // fin de ($accion == "Solicitar")
 
@@ -2000,20 +2031,23 @@ function mostrar_prestamo($cedula,$nropre)
 	$lafoto='fotos/'.substr($cedula,2,8).'.jpg';
 	echo "<img src='".$lafoto."' width='156' height='156' border='0' />";
 }	
+*/
 
-function actualizar_acta($nroacta, $monto, $primerdcto) {
-	$sql="update ".$_SESSION['institucion']."sgcafact set eje_pre=eje_pre + $monto where ((acta ='$nroacta') and (f_dcto = '$primerdcto'))";
-	try
-	{
-		$resultado=$db_con->prepare($sql);
-		$resultado->execute();
-	}
-	catch(PDOException $e){
-		echo $e->getMessage();
-		// echo 'Fallo la conexion';
-	}
+function actualizar_acta($nroacta, $monto, $primerdcto, $db_con) 
+{
+	$sql="update ".$_SESSION['institucion']."sgcafact set eje_pre=eje_pre + :monto where ((acta =:nroacta) and (f_dcto = :primerdcto))";
+	echo '1';
+	$resultado=$db_con->prepare($sql);
+	echo '2';
+	$resultado->execute(array(
+			":monto"=>$monto,
+			":nroacta"=>$nroacta,
+			":primerdcto"=>$primerdcto,
+		));
+	echo 'termine';
 }
 
+/*
 function generar_comprobantes($sql_360)
 {
 }
