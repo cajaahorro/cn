@@ -47,11 +47,13 @@ $row=$stmt->fetch(PDO::FETCH_ASSOC);
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="bootstrap/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script> 
+	<script  type="text/javascript" src="bootstrap/js/toastr.js"></script>
 <script type="text/javascript" src="bootstrap/js/moment.min.js"></script>
 <script src="bootstrap/js/bootstrap-datetimepicker.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/validation.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/daterangepicker.js"></script> 
 <link rel="stylesheet" type="text/css" href="bootstrap/css/daterangepicker.css" /> 
+        <link href="bootstrap/css/toastr.css" rel="stylesheet" type="text/css" />
 
 
 <!-- los enlaces para menu multinivel -->

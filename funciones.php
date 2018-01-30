@@ -1337,7 +1337,6 @@ function numero_prestamo($micedula, $laparte, $db_con)
 
 function mensaje($arreglo)
 {
-	die($arreglo['emergente'].'aaaaa');
 	if ($arreglo['emergente'] == 2)
 	{
 		echo "<div class='alert alert-".$arreglo['tipo']."'>";
@@ -1351,6 +1350,8 @@ function mensaje($arreglo)
 			$arreglo['tipo'] = 'error';
 		if ($arreglo['tipo'] == 'default')
 			$arreglo['tipo'] = 'info';
+		if (empty($arreglo['titulo']))
+			$arreglo['titulo']='Informaci&oacute;n';
 		echo "
 		<script type='text/javascript'>
 		toastr.options.newestOnTop = true;

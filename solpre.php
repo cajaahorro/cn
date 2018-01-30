@@ -550,7 +550,8 @@ if ($accion == "Solicitar") {	// aprobar
 	//	$primerdcto='0000-00-00';
 		mensaje(array(
 			"tipo"=>'info',
-			"texto"=>'Creando préstamo nuevo numero <strong>$elnumero</strong>',
+			"texto"=>'Creando pr&eacute;stamo nuevo numero <strong>'.$elnumero.'</strong>',
+			"emergente"=>2,
 			));
 		$sql="insert into ".$_SESSION['institucion']."sgcaf310 (codsoc_sdp, cedsoc_sdp, nropre_sdp, codpre_sdp, f_soli_sdp, f_1cuo_sdp, monpre_sdp, monpag_sdp, nrofia_sdp, stapre_sdp, tipo_fianz, cuota, nrocuotas, interes_sd, cuota_ucla, netcheque, nro_acta, fecha_acta, ip, inicial, intereses, quien, ultcan_sdp, monfia_sdp, monint, pag_ucla, renovado, renova_por, ultcan_pro, monpag_pro, stapre_pro, monint_pro) values (:laparte, :micedula, :elnumero, :elprestamo, :hoy, :primerdcto, :monpre_sdp, 0, 0, :estatus, '', :cuota, :lascuotas, :interes_sd, :cuota2, :monpre_sdp, :nroacta, :fechaacta, :ip, :inicial, :intereses_diferidos, :donde, :ultcan_sdp, :monfia_sdp, :monint, :pag_ucla, :renovado, :renova_por, :ultcan_pro, :monpag_pro, :estatus, :monint_pro)";
 	//	echo $sql;
@@ -639,7 +640,6 @@ if ($accion == "Solicitar") {	// aprobar
 		$primerdcto=$_POST['primerdcto'];
 	//	$primer_dcto=convertir_fechadmy($el_acta['f_dcto']);
 		echo "<input type = 'hidden' value ='".$primerdcto."' name='primerdcto' id='primerdcto'>";
-		echo 'generar plan '.$r_360['genera_pl'];
 		$_SESSION['primerdcto']=$primerdcto;
 		if ($r_360['restar_otros'] == 1) $accion='Restar';
 		else 
@@ -711,6 +711,11 @@ if ($accion == "Solicitar") {	// aprobar
 				"tipo"=>'info',
 				"texto"=>'<strong>Este tipo de pr&eacute;stamo esta configurado para NO realizar impresi&oacute;n de planilla</strong>',
 				"emergente"=>1,
+				));
+			mensaje(array(
+				"tipo"=>'info',
+				"texto"=>'<strong>Este tipo de pr&eacute;stamo esta configurado para NO realizar impresi&oacute;n de planilla</strong>',
+				"emergente"=>2,
 				));
 	}
 	catch(PDOException $e){
