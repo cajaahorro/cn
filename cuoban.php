@@ -202,7 +202,12 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 			echo '<input type="hidden" name="nombre_archivo" value = "'.$nombre_archivo.'"/>';
 			echo '<input type="hidden" name="nominasnormales" value = "on"/>';
 			// $fechadescuento=$_POST['fechadelpago'];
-			mensaje(['tipo'=>'info','titulo'=>'Información','texto'=>'Recopilando informaci&oacute;n Para Descuentos de Pr&eacute;stamos al '.convertir_fechadmy($fechadescuento)]);
+			mensaje(array(
+				'tipo'=>'info',
+				'titulo'=>'Informaci&oacute;n',
+				'texto'=>'Recopilando informaci&oacute;n Para Descuentos de Pr&eacute;stamos al '.convertir_fechadmy($fechadescuento),
+				'emergente'=>1,
+				));
 //			$fechadescuento=convertir_fecha($fechadescuento);
 			$sql_360="select * from ".$_SESSION[institucion]."sgcaf360 where (dcto_sem=1) order by cod_pres";
 			$a_360=$db_con->prepare($sql_360, array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL)); // ordernado para recorrer hacia adelante
@@ -264,7 +269,11 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 
 			} // ($r200 = mysql_fetch_assoc($a_200))
 			echo '<input type="hidden" name="fechadescuento" value="'.$fechadescuento.'">';
-			mensaje(['tipo'=>'success','titulo'=>'Informaci&oacute;n preparada','texto'=>'<h2>Se ha generado el archivo <strong><br>'.$nombre_archivo.'<br></strong> para su procesamiento a banco</h2>']);
+			mensaje(array(
+				'tipo'=>'success',
+				'titulo'=>'Informaci&oacute;n preparada',
+				'texto'=>'<h2>Se ha generado el archivo <strong><br>'.$nombre_archivo.'<br></strong> para su procesamiento a banco</h2>',
+				'emergente'=>2,));
 /*
 			echo '<h2>Información Lista...</h2><br>';
 			echo '<h2>Se ha generado el archivo '.$nombre_archivo.'<br> para su procesamiento a banco</h2>';
@@ -275,7 +284,7 @@ if (($accion=='ListadoDeCuotas') and ($nominasnormales == 'on'))
 			echo "'";
 //			echo "'".'&downloadfile='.$nombre_archivo.'&';
 			echo ');">  ';
-//			echo '<input type="submit" name="Submit" value="Realizar Abono " />';
+			echo '<input type="submit" class="btn btn-success" name="Submit" value="Realizar Abono " />';
 			echo '</legend>';
 			echo '</form>';
 			echo '</div>';	
@@ -306,7 +315,7 @@ if (($accion=='Abonar')) { // and ($nominasnormales == 'on')) {
 	$fechadescuento=$_POST['fechadescuento'];
 	echo '<input type="hidden" name="fechadescuento" value = "'.$fechadescuento.'">';
 	echo '<input type="hidden" name="nombre_archivo" value = "'.$nombre_archivo.'"/>';
-	echo '<input type="submit" name="procesar" value="Generar Asiento Contable" />';
+	echo '<input type="submit" class="btn btn-info" name="procesar" value="Generar Asiento Contable" />';
 	echo '</form>';
 	echo '</div>';
 }	// ($accion=='ImpresionListados') 
@@ -401,12 +410,13 @@ if (($accion=='Asiento')) {
 	$nombre_archivo=$_POST['nombre_archivo'];
 	echo '<form action="depositotxt.php" method="post" name="form1" enctype="multipart/form-data">';
 	echo '<input type="hidden" name="archivo" value = "'.$nombre_archivo.'">';
-	echo '<input type="submit" name="procesar" value="Descargar Archivo '.$nombre_archivo.'" />';
+	echo '<input type="submit" name="procesar" class="btn btn-info" value="Descargar Archivo '.$nombre_archivo.'" />';
 	echo '</form>';
 
 	$comando = "update ".$_SESSION[institucion]."sgcaf8co set fechanominamiercoles= now()";
 	$resultado=$db_con->prepare($comando);
 	$resultado->execute();
+	echo 'sali';
 /////
 }
 
